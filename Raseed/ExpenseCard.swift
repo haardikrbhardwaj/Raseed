@@ -1,62 +1,117 @@
-//
-//  ExpenseCard.swift
-//  Raseed
-//
-//  Created by Hardik Bhardwaj on 22/05/26.
-//
-
-
 import SwiftUI
 
 struct ExpenseCard: View {
-
+    @AppStorage("selectedCurrency")
+    private var selectedCurrency = "₹"
     let expense: Expense
-
+    
     var body: some View {
-
+        
         HStack(spacing: 16) {
-
-            Circle()
-                .fill(.white.opacity(0.1))
-                .frame(width: 52, height: 52)
-                .overlay {
-
-                    Text(categoryEmoji)
-                        .font(.title3)
-                }
-
+            
+            ZStack {
+                
+                Circle()
+                    .fill(categoryColor.opacity(0.2))
+                    .frame(width: 52, height: 52)
+                
+                Text(categoryIcon)
+                    .font(.title3)
+            }
+            
             VStack(alignment: .leading, spacing: 6) {
-
+                
                 Text(expense.merchant)
                     .foregroundColor(.white)
                     .fontWeight(.semibold)
-
+                
                 Text(expense.category)
                     .foregroundColor(.gray)
+                    .font(.subheadline)
             }
-
+            
             Spacer()
-
-            Text("₹\(Int(expense.amount))")
+            
+            Text("\(selectedCurrency) \(Int(expense.amount))")
                 .foregroundColor(.white)
                 .fontWeight(.bold)
         }
         .padding()
         .background(AppColors.card)
-        .clipShape(RoundedRectangle(cornerRadius: 24))
+        .clipShape(
+            RoundedRectangle(cornerRadius: 24)
+        )
     }
-
-    var categoryEmoji: String {
-
-        switch expense.category {
-        case "Food":
+    
+    private var categoryIcon: String {
+        
+        switch expense.category.lowercased() {
+            
+        case "food":
             return "🍔"
-        case "Travel":
+            
+        case "travel":
             return "🚕"
-        case "Shopping":
+            
+        case "shopping":
             return "🛍"
+            
+        case "bills":
+            return "📄"
+            
+        case "entertainment":
+            return "🎬"
+            
+        case "gym":
+            return "🏋️"
+            
+        case "petrol":
+            return "⛽️"
+            
+        case "medicine":
+            return "💊"
+            
+        case "books":
+            return "📚"
+            
         default:
-            return "💸"
+            return "❓"
+        }
+    }
+    
+    private var categoryColor: Color {
+        
+        switch expense.category.lowercased() {
+            
+        case "food":
+            return .orange
+            
+        case "travel":
+            return .blue
+            
+        case "shopping":
+            return .purple
+            
+        case "bills":
+            return .green
+            
+        case "gym":
+            return .yellow
+            
+        case "fuel":
+            return .orange
+            
+        case "medicine":
+            return .red
+            
+        case "books":
+            return .green
+            
+        case "entertainment":
+            return .pink
+            
+        default:
+            return .gray
         }
     }
 }

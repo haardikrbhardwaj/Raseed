@@ -8,6 +8,10 @@ struct HomeView: View {
 
     @StateObject
     private var vm = HomeViewModel()
+    
+    @AppStorage("monthlyBudget")
+    private var monthlyBudget: Double = 50000
+    
 
     var body: some View {
 
@@ -26,7 +30,7 @@ struct HomeView: View {
 
                         BalanceCard(
                             totalSpent: vm.totalSpent,
-                            monthlyBudget: 50000
+                            monthlyBudget: monthlyBudget
                         )
 
                         InsightCard(

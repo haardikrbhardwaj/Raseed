@@ -31,64 +31,143 @@ struct AddExpenseView: View {
                 Color.black
                     .ignoresSafeArea()
 
-                VStack(spacing: 24) {
+                VStack(alignment: .leading, spacing: 24) {
 
                     Text("Add Expense")
                         .font(.largeTitle.bold())
                         .foregroundColor(.white)
-
-                    TextField("Amount", text: $vm.amount)
-                        .keyboardType(.decimalPad)
-                        .padding()
-                        .background(AppColors.card)
-                        .clipShape(
-                            RoundedRectangle(cornerRadius: 20)
+                        .frame(
+                            maxWidth: .infinity,
+                            alignment: .leading
                         )
-                        .foregroundColor(.white)
 
-                    TextField("Merchant", text: $vm.merchant)
-                        .padding()
-                        .background(AppColors.card)
-                        .clipShape(
-                            RoundedRectangle(cornerRadius: 20)
-                        )
-                        .foregroundColor(.white)
+                    TextField(
+                        "Amount",
+                        text: $vm.amount
+                    )
+                    .keyboardType(.decimalPad)
+                    .padding()
+                    .background(AppColors.card)
+                    .clipShape(
+                        RoundedRectangle(cornerRadius: 20)
+                    )
+                    .foregroundColor(.white)
+
+                    TextField(
+                        "Merchant",
+                        text: $vm.merchant
+                    )
+                    .padding()
+                    .background(AppColors.card)
+                    .clipShape(
+                        RoundedRectangle(cornerRadius: 20)
+                    )
+                    .foregroundColor(.white)
+
+                    Text("Category")
+                        .foregroundColor(.gray)
+                        .font(.headline)
 
                     ScrollView(
                         .horizontal,
                         showsIndicators: false
                     ) {
 
-                        HStack(spacing: 16) {
+                        HStack(spacing: 14) {
 
                             ForEach(Category.mock) { category in
 
                                 Button {
 
-                                    vm.selectedCategory = category
+                                    withAnimation(.spring) {
+
+                                        vm.selectedCategory = category
+                                    }
 
                                 } label: {
 
-                                    VStack(spacing: 10) {
+                                    VStack(spacing: 13) {
 
                                         Text(category.icon)
-                                            .font(.title)
+                                            .font(.system(size: 28))
 
                                         Text(category.name)
                                             .foregroundColor(.white)
+                                            .font(.subheadline)
+                                            .fontWeight(.medium)
                                     }
-                                    .padding()
+                                    .frame(
+                                        width: 95,
+                                        height: 110
+                                    )
                                     .background(
                                         vm.selectedCategory.name == category.name
-                                        ? Color.yellow.opacity(0.3)
+                                        ? Color.gray.opacity(0.25)
                                         : AppColors.card
                                     )
+                                    .overlay {
+
+                                        RoundedRectangle(
+                                            cornerRadius: 24
+                                        )
+                                        .stroke(
+                                            vm.selectedCategory.name == category.name
+                                            ? Color.yellow
+                                            : Color.clear,
+                                            lineWidth: 1.5
+                                        )
+                                    }
                                     .clipShape(
-                                        RoundedRectangle(cornerRadius: 20)
+                                        RoundedRectangle(
+                                            cornerRadius: 24
+                                        )
+                                    )
+                                    .scaleEffect(
+                                        vm.selectedCategory.name == category.name
+                                        ? 1.03
+                                        : 1
+                                    )
+                                    .animation(
+                                        .spring(
+                                            response: 0.3,
+                                            dampingFraction: 0.7
+                                        ),
+                                        value: vm.selectedCategory.name
                                     )
                                 }
                             }
                         }
+                        .padding(.horizontal, 2)
+                    }
+
+                    if vm.selectedCategory.name == "Other" {
+
+                        VStack(
+                            alignment: .leading,
+                            spacing: 10
+                        ) {
+
+                            Text("Custom Category")
+                                .foregroundColor(.gray)
+                                .font(.subheadline)
+
+                            TextField(
+                                "Enter category name",
+                                text: $vm.customCategory
+                            )
+                            .padding()
+                            .background(AppColors.card)
+                            .clipShape(
+                                RoundedRectangle(
+                                    cornerRadius: 20
+                                )
+                            )
+                            .foregroundColor(.white)
+                        }
+                        .transition(
+                            .move(edge: .top)
+                            .combined(with: .opacity)
+                        )
                     }
 
                     Spacer()
@@ -147,7 +226,7 @@ struct AddExpenseView: View {
                             RoundedRectangle(
                                 cornerRadius: 22
                             )
-                            .fill(Color.yellow)
+                            .fill(Color.white)
 
                             Text("Save Expense")
                                 .foregroundColor(.black)
@@ -162,9 +241,11 @@ struct AddExpenseView: View {
 
                     VStack(spacing: 16) {
 
-                        Image(systemName: "checkmark.circle.fill")
-                            .font(.system(size: 60))
-                            .foregroundColor(.green)
+                        Image(
+                            systemName: "checkmark.circle.fill"
+                        )
+                        .font(.system(size: 60))
+                        .foregroundColor(.gray)
 
                         Text("Expense Saved")
                             .font(.headline)

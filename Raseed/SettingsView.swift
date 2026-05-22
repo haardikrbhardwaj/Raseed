@@ -5,7 +5,6 @@
 //  Created by Hardik Bhardwaj on 22/05/26.
 //
 
-
 import SwiftUI
 
 struct SettingsView: View {
@@ -14,35 +13,94 @@ struct SettingsView: View {
 
         NavigationStack {
 
-            VStack(spacing: 24) {
+            ZStack {
 
-                Text("Settings")
-                    .font(.largeTitle.bold())
-                    .foregroundColor(.white)
+                Color.black
+                    .ignoresSafeArea()
 
-                settingsRow(
-                    title: "Notion Sync",
-                    icon: "link"
-                )
+                ScrollView {
 
-                settingsRow(
-                    title: "AI Insights",
-                    icon: "sparkles"
-                )
+                    VStack(
+                        alignment: .leading,
+                        spacing: 24
+                    ) {
 
-                settingsRow(
-                    title: "Notifications",
-                    icon: "bell"
-                )
+                        // MARK: HEADER
 
-                Spacer()
+                        Text("Settings")
+                            .font(.largeTitle.bold())
+                            .foregroundColor(.white)
+
+                        VStack(spacing: 16) {
+
+                            NavigationLink {
+
+                                BudgetSettingsView()
+
+                            } label: {
+
+                                settingsRow(
+                                    title: "Monthly Budget",
+                                    icon: "target"
+                                )
+                            }
+
+                            NavigationLink {
+
+                                Text("Coming Soon")
+                                    .foregroundColor(.white)
+                                    .background(Color.black)
+
+                            } label: {
+
+                                settingsRow(
+                                    title: "Notion Sync",
+                                    icon: "link"
+                                )
+                            }
+
+                            NavigationLink {
+
+                                Text("Coming Soon")
+                                    .foregroundColor(.white)
+                                    .background(Color.black)
+
+                            } label: {
+
+                                settingsRow(
+                                    title: "AI Insights",
+                                    icon: "sparkles"
+                                )
+                            }
+
+                            NavigationLink {
+
+                                Text("Coming Soon")
+                                    .foregroundColor(.white)
+                                    .background(Color.black)
+
+                            } label: {
+
+                                settingsRow(
+                                    title: "Notifications",
+                                    icon: "bell"
+                                )
+                            }
+                        }
+                    }
+                    .padding()
+                }
             }
-            .padding()
-            .background(AppColors.background)
+            .navigationBarHidden(true)
         }
     }
 
-    func settingsRow(title: String, icon: String) -> some View {
+    // MARK: SETTINGS ROW
+
+    func settingsRow(
+        title: String,
+        icon: String
+    ) -> some View {
 
         HStack {
 
@@ -59,6 +117,11 @@ struct SettingsView: View {
         }
         .padding()
         .background(AppColors.card)
-        .clipShape(RoundedRectangle(cornerRadius: 20))
+        .clipShape(
+            RoundedRectangle(cornerRadius: 20)
+        )
     }
 }
+
+// MARK: - BUDGET SETTINGS VIEW
+
