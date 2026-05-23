@@ -1,39 +1,27 @@
-/* 
-  Localizable.strings
-  Raseed
-
-  Created by Hardik Bhardwaj on 23/05/26.
-  
-*/
 "settings" = "Ajustes";
 "language" = "Idioma";
 "analytics" = "Análisis";
 "history" = "Historial";
 "home" = "Inicio";
-
-"monthly_budget" = "Presupuesto mensual";
-"current_budget" = "Presupuesto actual";
-"update_budget" = "Actualizar presupuesto";
-"save_settings" = "Guardar ajustes";
-"budget_updated" = "Presupuesto actualizado";
-
-"this_month" = "Este mes";
+"monthly_budget" = "Presupuesto Mensual";
+"current_budget" = "Presupuesto Actual";
+"update_budget" = "Actualizar Presupuesto";
+"save_settings" = "Guardar Ajustes";
+"budget_updated" = "Presupuesto Actualizado";
+"this_month" = "Este Mes";
 "budget" = "Presupuesto";
 "expenses" = "Gastos";
-"total_spent" = "Total gastado";
+"total_spent" = "Total Gastado";
 "breakdown" = "Desglose";
-"category_spending" = "Gastos por categoría";
-
-"add_expense" = "Añadir gasto";
-"save_expense" = "Guardar gasto";
-"expense_saved" = "Gasto guardado";
-
+"category_spending" = "Gastos por Categoría";
+"add_expense" = "Añadir Gasto";
+"save_expense" = "Guardar Gasto";
+"expense_saved" = "Gasto Guardado";
 "amount" = "Cantidad";
-"merchant" = "Comercio";
+"merchant" = "Comerciante";
 "category" = "Categoría";
-"custom_category" = "Categoría personalizada";
+"custom_category" = "Categoría Personalizada";
 "enter_category_name" = "Introduce el nombre de la categoría";
-
 "food" = "Comida";
 "travel" = "Viajes";
 "shopping" = "Compras";
@@ -43,51 +31,42 @@
 "medicine" = "Medicina";
 "books" = "Libros";
 "entertainment" = "Entretenimiento";
-"other" = "Otros";
-
+"other" = "Otro";
 "notifications" = "Notificaciones";
 "ai_insights" = "Análisis de IA";
 "notion_sync" = "Sincronización con Notion";
-
 "coming_soon" = "Próximamente";
-
 "currency" = "Moneda";
 "update_budget_placeholder" = "Introduce el nuevo presupuesto";
-
 "doing_great" = "Lo estás haciendo genial este mes";
 "approaching_budget" = "Te estás acercando a tu presupuesto";
 "budget_limit_reached" = "Límite de presupuesto casi alcanzado";
-"track_spending" = "Sigue la evolución de tus gastos";
+"track_spending" = "Sigue tus análisis de gastos";
 "add" = "Añadir";
 "welcome_back" = "Bienvenido de nuevo";
 "no_expenses_yet" = "Aún no hay gastos";
 "expenses_appear_here" = "Tus gastos aparecerán aquí";
-"welcome_title" = "Bienvenido a Raseed";
-"welcome_subtitle" = "Realiza un seguimiento de tus gastos sin esfuerzo con una experiencia financiera hermosa e inteligente.";
+"welcome_title" = "Bienvenido a Expenzo";
+"welcome_subtitle" = "Controla tus gastos sin esfuerzo con una experiencia financiera hermosa e inteligente.";
 "continue_button" = "Continuar";
-
-"choose_language" = "Elige tu idioma";
-"personalize_experience" = "Personaliza tu experiencia en Raseed.";
-
+"choose_language" = "Elige tu Idioma";
+"personalize_experience" = "Personaliza tu experiencia en Expenzo.";
 "what_should_we_call_you" = "¿Cómo deberíamos llamarte?";
-"why_use_raseed" = "¿Por qué usar Raseed?";
-"instant_logging" = "Registro instantáneo de gastos";
-"works_offline" = "Funciona completamente sin conexión";
-"smart_analytics" = "Análisis inteligente";
-"private_secure" = "Privado y seguro";
-
-"connect_workspace" = "Conecta tu espacio de trabajo";
-"notion_sync_desc" = "Sincroniza tus gastos de forma segura con Notion para copias de seguridad, estadísticas y organización.";
-"cloud_backup" = "Copia de seguridad en la nube";
-"cross_device" = "Acceso multidispositivo";
+"why_use_raseed" = "¿Por qué usar Expenzo?";
+"instant_logging" = "Registro Instantáneo de Gastos";
+"works_offline" = "Funciona Completamente Offline";
+"smart_analytics" = "Análisis Inteligente";
+"private_secure" = "Privado y Seguro";
+"connect_workspace" = "Conecta tu Espacio de Trabajo";
+"notion_sync_desc" = "Sincroniza de forma segura tus gastos con Notion para copias de seguridad y organización.";
+"cloud_backup" = "Copia de Seguridad en la Nube";
+"cross_device" = "Acceso Multidispositivo";
 "connect_notion_btn" = "Conectar con Notion";
-"continue_offline" = "Continuar sin conexión";
-"logout" = "Cerrar sesión";
-"edit_profile" = "Editar perfil";
-"your_name" = "Tu nombre";
-"save_changes" = "Guardar cambios";
-"edit_name" = "Editar nombre";
-"terms_of_service" = "Términos de servicio";
-"privacy_policy" = "Política de privacidad";
-"terms_of_service" = "Términos de servicio";
-"privacy_policy" = "Política de privacidad";
+"continue_offline" = "Continuar Offline";
+"logout" = "Cerrar Sesión";
+"edit_profile" = "Editar Perfil";
+"your_name" = "Tu Nombre";
+"save_changes" = "Guardar Cambios";
+"edit_name" = "Editar Nombre";
+"terms_of_service" = "Términos de Servicio";
+"privacy_policy" = "Política de Privacidad";

@@ -1,91 +1,72 @@
-/* 
-  Localizable.strings
-  Raseed
-
-  Created by Hardik Bhardwaj on 23/05/26.
-  
-*/
-"settings" = "ಸಂಯೋಜನೆಗಳು";
+"settings" = "ಸೇಟಿಂಗ್ಸ್";
 "language" = "ಭಾಷೆ";
 "analytics" = "ವಿಶ್ಲೇಷಣೆ";
 "history" = "ಇತಿಹಾಸ";
-"home" = "ಮುಖಪುಟ";
-
+"home" = "ಹೋಮ್";
 "monthly_budget" = "ಮಾಸಿಕ ಬಜೆಟ್";
 "current_budget" = "ಪ್ರಸ್ತುತ ಬಜೆಟ್";
 "update_budget" = "ಬಜೆಟ್ ನವೀಕರಿಸಿ";
-"save_settings" = "ಸಂಯೋಜನೆಗಳನ್ನು ಉಳಿಸಿ";
+"save_settings" = "ಸೇಟಿಂಗ್ಸ್ ಉಳಿಸಿ";
 "budget_updated" = "ಬಜೆಟ್ ನವೀಕರಿಸಲಾಗಿದೆ";
-
 "this_month" = "ಈ ತಿಂಗಳು";
 "budget" = "ಬಜೆಟ್";
 "expenses" = "ವೆಚ್ಚಗಳು";
 "total_spent" = "ಒಟ್ಟು ವೆಚ್ಚ";
 "breakdown" = "ವಿವರಣೆ";
-"category_spending" = "ವರ್ಗವಾರು ವೆಚ್ಚ";
-
+"category_spending" = "ವರ್ಗವಾರು ವೆಚ್ಚಗಳು";
 "add_expense" = "ವೆಚ್ಚ ಸೇರಿಸಿ";
 "save_expense" = "ವೆಚ್ಚ ಉಳಿಸಿ";
-"expense_saved" = "ವೆಚ್ಚವನ್ನು ಉಳಿಸಲಾಗಿದೆ";
-
+"expense_saved" = "ವೆಚ್ಚ ಉಳಿಸಲಾಗಿದೆ";
 "amount" = "ಮೊತ್ತ";
 "merchant" = "ವ್ಯಾಪಾರಿ";
 "category" = "ವರ್ಗ";
 "custom_category" = "ಕಸ್ಟಮ್ ವರ್ಗ";
 "enter_category_name" = "ವರ್ಗದ ಹೆಸರನ್ನು ನಮೂದಿಸಿ";
-
 "food" = "ಆಹಾರ";
 "travel" = "ಪ್ರಯಾಣ";
-"shopping" = "ಖರೀದಿ";
+"shopping" = "ಶಾಪಿಂಗ್";
 "bills" = "ಬಿಲ್ಲುಗಳು";
 "gym" = "ಜಿಮ್";
 "fuel" = "ಇಂಧನ";
 "medicine" = "ಔಷಧಿ";
 "books" = "ಪುಸ್ತಕಗಳು";
-"entertainment" = "ಮನೋರಂಜನೆ";
+"entertainment" = "ಮನರಂಜನೆ";
 "other" = "ಇತರೆ";
-
-"notifications" = "ಸೂಚನೆಗಳು";
+"notifications" = "ಅಧಿಸೂಚನೆಗಳು";
 "ai_insights" = "AI ಒಳನೋಟಗಳು";
 "notion_sync" = "ನೋಶನ್ ಸಿಂಕ್";
-
 "coming_soon" = "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ";
-
 "currency" = "ಕರೆನ್ಸಿ";
 "update_budget_placeholder" = "ಹೊಸ ಬಜೆಟ್ ನಮೂದಿಸಿ";
-
 "doing_great" = "ಈ ತಿಂಗಳು ನೀವು ಉತ್ತಮವಾಗಿ ನಿರ್ವಹಿಸುತ್ತಿದ್ದೀರಿ";
-"approaching_budget" = "ನಿಮ್ಮ ಬಜೆಟ್ ಮಿತಿ ಹತ್ತಿರವಾಗುತ್ತಿದೆ";
-"budget_limit_reached" = "ಬಜೆಟ್ ಮಿತಿ ಮುಗಿಯುತ್ತಾ ಬಂದಿದೆ";
+"approaching_budget" = "ನೀವು ನಿಮ್ಮ ಬಜೆಟ್ ಮಿತಿಯನ್ನು ತಲುಪುತ್ತಿದ್ದೀರಿ";
+"budget_limit_reached" = "ಬಜೆಟ್ ಮಿತಿ ಬಹುತೇಕ ಮುಗಿದಿದೆ";
 "track_spending" = "ನಿಮ್ಮ ವೆಚ್ಚದ ಒಳನೋಟಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ";
 "add" = "ಸೇರಿಸಿ";
-"welcome_back" = "ಮರಳಿ ಸ್ವಾಗತ";
+"welcome_back" = "ಸ್ವಾಗತ";
 "no_expenses_yet" = "ಇನ್ನೂ ಯಾವುದೇ ವೆಚ್ಚಗಳಿಲ್ಲ";
 "expenses_appear_here" = "ನಿಮ್ಮ ವೆಚ್ಚಗಳು ಇಲ್ಲಿ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆ";
-"welcome_title" = "Raseed ಗೆ ಸುಸ್ವಾಗತ";
-"welcome_subtitle" = "ಸುಂದರವಾದ ಮತ್ತು ಬುದ್ಧಿವಂತ ಹಣಕಾಸು ಅನುಭವದೊಂದಿಗೆ ನಿಮ್ಮ ವೆಚ್ಚಗಳನ್ನು ಸುಲಭವಾಗಿ ಟ್ರ್ಯಾಕ್ ಮಾಡಿ।";
+"welcome_title" = "Expenzo ಗೆ ಸ್ವಾಗತ";
+"welcome_subtitle" = "ಸುಂದರವಾದ ಮತ್ತು ಬುದ್ಧಿವಂತ ಹಣಕಾಸು ಅನುಭವದೊಂದಿಗೆ ವೆಚ್ಚಗಳನ್ನು ಸುಲಭವಾಗಿ ಟ್ರ್ಯಾಕ್ ಮಾಡಿ.";
 "continue_button" = "ಮುಂದುವರೆಯಿರಿ";
-
 "choose_language" = "ನಿಮ್ಮ ಭಾಷೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ";
-"personalize_experience" = "ನಿಮ್ಮ Raseed ಅನುಭವವನ್ನು ವೈಯಕ್ತೀಕರಿಸಿ।";
-
+"personalize_experience" = "ನಿಮ್ಮ Expenzo ಅನುಭವವನ್ನು ಕಸ್ಟಮೈಸ್ ಮಾಡಿ.";
 "what_should_we_call_you" = "ನಾವು ನಿಮ್ಮನ್ನು ಏನೆಂದು ಕರೆಯಬೇಕು?";
-"why_use_raseed" = "Raseed ಅನ್ನು ಏಕೆ ಬಳಸಬೇಕು?";
-"instant_logging" = "ತ್ವರಿತ ವೆಚ್ಚದ ಲಾಗಿಂಗ್";
+"why_use_raseed" = "Expenzo ಅನ್ನು ಏಕೆ ಬಳಸಬೇಕು?";
+"instant_logging" = "ತ್ವರಿತ ವೆಚ್ಚ ದಾಖಲಾತಿ";
 "works_offline" = "ಸಂಪೂರ್ಣವಾಗಿ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ";
 "smart_analytics" = "ಸ್ಮಾರ್ಟ್ ವಿಶ್ಲೇಷಣೆ";
 "private_secure" = "ಖಾಸಗಿ ಮತ್ತು ಸುರಕ್ಷಿತ";
-
-"connect_workspace" = "ನಿಮ್ಮ ವರ್ಕ್‌ಸ್ಪೇಸ್ ಅನ್ನು ಸಂಪರ್ಕಿಸಿ";
-"notion_sync_desc" = "ಬ್ಯಾಕಪ್, ಒಳನೋಟಗಳು ಮತ್ತು ಸಂಸ್ಥೆಗಾಗಿ ನೋಶನ್‌ನೊಂದಿಗೆ ವೆಚ್ಚಗಳನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಸಿಂಕ್ ಮಾಡಿ।";
+"connect_workspace" = "ನಿಮ್ಮ ವರ್ಕ್‌ಸ್ಪೇಸ್ ಸಂಪರ್ಕಿಸಿ";
+"notion_sync_desc" = "ಬ್ಯಾಕಪ್ ಮತ್ತು ಸಂಘಟನೆಗಾಗಿ ನಿಮ್ಮ ವೆಚ್ಚಗಳನ್ನು ನೋಶನ್‌ನೊಂದಿಗೆ ಸುರಕ್ಷಿತವಾಗಿ ಸಿಂಕ್ ಮಾಡಿ.";
 "cloud_backup" = "ಕ್ಲೌಡ್ ಬ್ಯಾಕಪ್";
 "cross_device" = "ಕ್ರಾಸ್-ಡಿವೈಸ್ ಪ್ರವೇಶ";
 "connect_notion_btn" = "ನೋಶನ್‌ನೊಂದಿಗೆ ಸಂಪರ್ಕಿಸಿ";
-"continue_offline" = "ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಮುಂದುವರಿಯಿರಿ";
+"continue_offline" = "ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಮುಂದುವರೆಯಿರಿ";
 "logout" = "ಲಾಗ್ ಔಟ್";
-"edit_profile" = "ಪ್ರೊಫೈಲ್ ಸಂಪಾದಿಸಿ";
+"edit_profile" = "ಪ್ರೊಫೈಲ್ ಎಡಿಟ್ ಮಾಡಿ";
 "your_name" = "ನಿಮ್ಮ ಹೆಸರು";
 "save_changes" = "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ";
-"edit_name" = "ಹೆಸರನ್ನು ಸಂಪಾದಿಸಿ";
+"edit_name" = "ಹೆಸರನ್ನು ಬದಲಾಯಿಸಿ";
 "terms_of_service" = "ಸೇವಾ ನಿಯಮಗಳು";
 "privacy_policy" = "ಗೌಪ್ಯತಾ ನೀತಿ";

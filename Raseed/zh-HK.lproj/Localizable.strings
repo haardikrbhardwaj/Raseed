@@ -1,96 +1,72 @@
-/* 
-  Localizable.strings
-  Raseed
-
-  Created by Hardik Bhardwaj on 23/05/26.
-  
-*/
 "settings" = "設定";
 "language" = "語言";
 "analytics" = "數據分析";
 "history" = "歷史紀錄";
-"home" = "主頁";
-
+"home" = "首頁";
 "monthly_budget" = "每月預算";
-"current_budget" = "目前預算";
+"current_budget" = "當前預算";
 "update_budget" = "更新預算";
 "save_settings" = "儲存設定";
 "budget_updated" = "預算已更新";
-
 "this_month" = "本月";
 "budget" = "預算";
 "expenses" = "支出";
 "total_spent" = "總支出";
-"breakdown" = "明細";
-"category_spending" = "類別支出";
-
+"breakdown" = "支出明細";
+"category_spending" = "類別開銷";
 "add_expense" = "新增支出";
 "save_expense" = "儲存支出";
 "expense_saved" = "支出已儲存";
-
 "amount" = "金額";
 "merchant" = "商戶";
 "category" = "類別";
 "custom_category" = "自訂類別";
 "enter_category_name" = "輸入類別名稱";
-
 "food" = "餐飲";
-"travel" = "旅遊";
+"travel" = "交通旅遊";
 "shopping" = "購物";
-"bills" = "賬單";
+"bills" = "賬單繳費";
 "gym" = "健身";
 "fuel" = "燃油";
-"medicine" = "醫藥";
+"medicine" = "醫療醫藥";
 "books" = "書籍";
-"entertainment" = "娛樂";
+"entertainment" = "娛樂消遣";
 "other" = "其他";
-
 "notifications" = "通知";
-"ai_insights" = "AI 智能分析";
+"ai_insights" = "AI 智慧分析";
 "notion_sync" = "Notion 同步";
-
 "coming_soon" = "即將推出";
-
 "currency" = "貨幣";
 "update_budget_placeholder" = "輸入新預算";
-
-"doing_great" = "你本月表現非常好";
+"doing_great" = "你本月做得很好";
 "approaching_budget" = "你正接近預算上限";
-"budget_limit_reached" = "即將達到預算上限";
-"track_spending" = "查看你的支出分析";
+"budget_limit_reached" = "預算即將達到上限";
+"track_spending" = "追蹤你的消費洞察";
 "add" = "新增";
 "welcome_back" = "歡迎回來";
 "no_expenses_yet" = "暫無支出紀錄";
-"expenses_appear_here" = "你的支出將會顯示在這裡";
-"welcome_title" = "歡迎來到 Raseed";
-"welcome_subtitle" = "透過精美且智能的理財體驗，輕鬆追蹤你的每一 მომೆಂಟ್ 支出。";
+"expenses_appear_here" = "你的支出紀錄將顯示在這裡";
+"welcome_title" = "歡迎使用 Expenzo";
+"welcome_subtitle" = "透過精美且智慧的理財體驗，輕鬆追蹤每筆銷。";
 "continue_button" = "繼續";
-
 "choose_language" = "選擇你的語言";
-"personalize_experience" = "個性化你的 Raseed 體驗。";
-
+"personalize_experience" = "個人化你的 Expenzo 體驗。";
 "what_should_we_call_you" = "我們該如何稱呼你？";
-"why_use_raseed" = "為何選擇 Raseed？";
-"instant_logging" = "即時記錄支出";
-"works_offline" = "完全支援離線操作";
-"smart_analytics" = "智能數據分析";
-"private_secure" = "私隱與安全保障";
-
+"why_use_raseed" = "為什麼選擇 Expenzo？";
+"instant_logging" = "即時記賬";
+"works_offline" = "完全支援離線使用";
+"smart_analytics" = "智慧圖表分析";
+"private_secure" = "私密與安全";
 "connect_workspace" = "連結你的工作區";
-"notion_sync_desc" = "安全地將支出同步至 Notion，以便進行備份、分析和整理。";
+"notion_sync_desc" = "安全地將支出同步至 Notion，以便進行備份與整理。";
 "cloud_backup" = "雲端備份";
 "cross_device" = "跨裝置存取";
 "connect_notion_btn" = "連結 Notion";
-"continue_offline" = "以離線模式繼續";
+"continue_offline" = "繼續離線使用";
 "logout" = "登出";
 "edit_profile" = "編輯個人檔案";
-"your_name" = "你的姓名";
-"save_changes" = "儲存變更";
-"edit_name" = "編輯姓名";
-"logout" = "登出";
-"edit_profile" = "編輯個人檔案";
-"your_name" = "你的姓名";
-"save_changes" = "儲存變更";
-"edit_name" = "編輯姓名";
+"your_name" = "你的名字";
+"save_changes" = "儲存修改";
+"edit_name" = "編輯名字";
 "terms_of_service" = "服務條款";
 "privacy_policy" = "隱私政策";

@@ -1,96 +1,72 @@
-/* 
-  Localizable.strings
-  Raseed
-
-  Created by Hardik Bhardwaj on 23/05/26.
-  
-*/
 "settings" = "Paramètres";
 "language" = "Langue";
 "analytics" = "Analyses";
 "history" = "Historique";
 "home" = "Accueil";
-
-"monthly_budget" = "Budget mensuel";
-"current_budget" = "Budget actuel";
-"update_budget" = "Modifier le budget";
-"save_settings" = "Enregistrer les paramètres";
-"budget_updated" = "Budget mis à jour";
-
-"this_month" = "Ce mois-ci";
+"monthly_budget" = "Budget Mensuel";
+"current_budget" = "Budget Actuel";
+"update_budget" = "Modifier le Budget";
+"save_settings" = "Enregistrer les Paramètres";
+"budget_updated" = "Budget Mis à Jour";
+"this_month" = "Ce Mois-ci";
 "budget" = "Budget";
 "expenses" = "Dépenses";
-"total_spent" = "Total dépensé";
+"total_spent" = "Total Dépensé";
 "breakdown" = "Répartition";
-"category_spending" = "Dépenses par catégorie";
-
-"add_expense" = "Ajouter une dépense";
-"save_expense" = "Enregistrer la dépense";
-"expense_saved" = "Dépense enregistrée";
-
+"category_spending" = "Dépenses par Catégorie";
+"add_expense" = "Ajouter une Dépense";
+"save_expense" = "Enregistrer la Dépense";
+"expense_saved" = "Dépense Enregistrée";
 "amount" = "Montant";
 "merchant" = "Commerçant";
 "category" = "Catégorie";
-"custom_category" = "Catégorie personnalisée";
+"custom_category" = "Catégorie Personnalisée";
 "enter_category_name" = "Entrez le nom de la catégorie";
-
 "food" = "Alimentation";
-"travel" = "Voyage";
+"travel" = "Voyages";
 "shopping" = "Shopping";
 "bills" = "Factures";
 "gym" = "Sport";
 "fuel" = "Carburant";
-"medicine" = "Médicaments";
+"medicine" = "Santé";
 "books" = "Livres";
 "entertainment" = "Divertissement";
 "other" = "Autre";
-
 "notifications" = "Notifications";
 "ai_insights" = "Analyses IA";
-"notion_sync" = "Synchronisation Notion";
-
-"coming_soon" = "Bientôt disponible";
-
+"notion_sync" = "Synchro Notion";
+"coming_soon" = "Bientôt Disponible";
 "currency" = "Devise";
 "update_budget_placeholder" = "Entrez le nouveau budget";
-
 "doing_great" = "Vous vous en sortez très bien ce mois-ci";
 "approaching_budget" = "Vous approchez de votre budget";
 "budget_limit_reached" = "Limite de budget presque atteinte";
-"track_spending" = "Suivez l'analyse de vos dépenses";
+"track_spending" = "Suivez l'évolution de vos dépenses";
 "add" = "Ajouter";
 "welcome_back" = "Bon retour";
-"no_expenses_yet" = "Aucune dépense pour l'instant";
+"no_expenses_yet" = "Aucune dépense pour le moment";
 "expenses_appear_here" = "Vos dépenses s'afficheront ici";
-"welcome_title" = "Bienvenue sur Raseed";
-"welcome_subtitle" = "Suivez vos dépenses sans effort grâce à une expérience financière belle et intelligente.";
+"welcome_title" = "Bienvenue sur Expenzo";
+"welcome_subtitle" = "Suivez vos dépenses sans effort grâce à una expérience financière esthétique et intelligente.";
 "continue_button" = "Continuer";
-
-"choose_language" = "Choisissez votre langue";
-"personalize_experience" = "Personnalisez votre expérience Raseed.";
-
+"choose_language" = "Choisissez Votre Langue";
+"personalize_experience" = "Personnalisez votre expérience Expenzo.";
 "what_should_we_call_you" = "Comment devrions-nous vous appeler ?";
-"why_use_raseed" = "Pourquoi utiliser Raseed ?";
-"instant_logging" = "Saisie instantanée des dépenses";
-"works_offline" = "Fonctionne complètement hors ligne";
-"smart_analytics" = "Analyses intelligentes";
-"private_secure" = "Privé et sécurisé";
-
-"connect_workspace" = "Connectez votre espace de travail";
-"notion_sync_desc" = "Synchronisez vos dépenses en toute sécurité avec Notion pour la sauvegarde, les analyses et l'organisation.";
-"cloud_backup" = "Sauvegarde sur le cloud";
-"cross_device" = "Accès multi-appareils";
-"connect_notion_btn" = "Se connecter avec Notion";
-"continue_offline" = "Continuer hors ligne";
-"logout" = "Se déconnecter";
-"edit_profile" = "Modifier le profil";
-"your_name" = "Votre nom";
-"save_changes" = "Enregistrer les modifications";
-"edit_name" = "Modifier le nom";
-"logout" = "Se déconnecter";
-"edit_profile" = "Modifier le profil";
-"your_name" = "Votre nom";
-"save_changes" = "Enregistrer les modifications";
-"edit_name" = "Modifier le nom";
-"terms_of_service" = "Conditions d'utilisation";
-"privacy_policy" = "Politique de confidentialité";
+"why_use_raseed" = "Pourquoi utiliser Expenzo ?";
+"instant_logging" = "Enregistrement Instantané";
+"works_offline" = "Fonctionne Entièrement Hors Ligne";
+"smart_analytics" = "Analyses Intelligentes";
+"private_secure" = "Privé & Sécurisé";
+"connect_workspace" = "Connectez Votre Espace de Travail";
+"notion_sync_desc" = "Synchronisez vos dépenses en toute sécurité avec Notion pour vos sauvegardes et votre organisation.";
+"cloud_backup" = "Sauvegarde sur le Cloud";
+"cross_device" = "Accès Multi-appareils";
+"connect_notion_btn" = "Se connecter à Notion";
+"continue_offline" = "Continuer Hors Ligne";
+"logout" = "Se Déconnecter";
+"edit_profile" = "Modifier le Profil";
+"your_name" = "Votre Nom";
+"save_changes" = "Enregistrer les Modifications";
+"edit_name" = "Modifier le Nom";
+"terms_of_service" = "Conditions d'Utilisation";
+"privacy_policy" = "Politique de Confidentialité";

@@ -1,91 +1,72 @@
-/* 
-  Localizable.strings
-  Raseed
-
-  Created by Hardik Bhardwaj on 23/05/26.
-  
-*/
 "settings" = "ترتیبات";
 "language" = "زبان";
 "analytics" = "تجزیات";
-"history" = "تاریخچہ";
+"history" = "ہسٹری";
 "home" = "ہوم";
-
 "monthly_budget" = "ماہانہ بجٹ";
 "current_budget" = "موجودہ بجٹ";
-"update_budget" = "بجٹ اپ ڈیٹ کریں";
+"update_budget" = "بجٹ اپڈیٹ کریں";
 "save_settings" = "ترتیبات محفوظ کریں";
-"budget_updated" = "بجٹ اپ ڈیٹ ہو گیا";
-
+"budget_updated" = "بجٹ اپڈیٹ ہو گیا";
 "this_month" = "اس مہینے";
 "budget" = "بجٹ";
 "expenses" = "اخراجات";
 "total_spent" = "کل خرچ";
-"breakdown" = "تفصیلات";
-"category_spending" = "زمرہ وار اخراجات";
-
-"add_expense" = "خرچ شامل کریں";
-"save_expense" = "خرچ محفوظ کریں";
-"expense_saved" = "خرچ محفوظ ہو گیا";
-
+"breakdown" = "تفصیل";
+"category_spending" = "زمرہ کے لحاظ سے خرچ";
+"add_expense" = "خرچہ شامل کریں";
+"save_expense" = "خرچہ محفوظ کریں";
+"expense_saved" = "خرچہ محفوظ ہو گیا";
 "amount" = "رقم";
-"merchant" = "تاجر";
+"merchant" = "دکاندار";
 "category" = "زمرہ";
-"custom_category" = "مخصوص زمرہ";
+"custom_category" = "कسٹم زمرہ";
 "enter_category_name" = "زمرہ کا نام درج کریں";
-
 "food" = "کھانا";
 "travel" = "سفر";
 "shopping" = "شاپنگ";
 "bills" = "بل";
 "gym" = "جم";
 "fuel" = "ایندھن";
-"medicine" = "دوائی";
+"medicine" = "ادویات";
 "books" = "کتابیں";
 "entertainment" = "تفریح";
 "other" = "دیگر";
-
 "notifications" = "نوٹیفیکیشنز";
-"ai_insights" = "اے آئی بصیرت";
+"ai_insights" = "AI انسائٹس";
 "notion_sync" = "نویشن سنک";
-
 "coming_soon" = "جلد آ رہا ہے";
-
 "currency" = "کرنسی";
 "update_budget_placeholder" = "نیا بجٹ درج کریں";
-
 "doing_great" = "اس مہینے آپ بہت اچھا کر رہے ہیں";
 "approaching_budget" = "آپ اپنے بجٹ کے قریب پہنچ رہے ہیں";
 "budget_limit_reached" = "بجٹ کی حد ختم ہونے والی ہے";
-"track_spending" = "اپنے اخراجات کے تجزیے پر نظر رکھیں";
+"track_spending" = "اپنے اخراجات پر نظر رکھیں";
 "add" = "شامل کریں";
 "welcome_back" = "خوش آمدید";
-"no_expenses_yet" = "ابھی تک کوئی اخراجات نہیں ہیں";
+"no_expenses_yet" = "ابھی تک کوئی خرچہ نہیں ہے";
 "expenses_appear_here" = "آپ کے اخراجات یہاں ظاہر ہوں گے";
-"welcome_title" = "Raseed میں خوش آمدید";
-"welcome_subtitle" = "ایک خوبصورت اور ذہین مالیاتی تجربے کے ساتھ آسانی سے اپنے اخراجات کو ٹریک کریں۔";
+"welcome_title" = "Expenzo میں خوش آمدید";
+"welcome_subtitle" = "ایک خوبصورت اور ذہین مالیاتی تجربے کے ساتھ بغیر کسی پریشانی کے اخراجات کو ٹریک کریں۔";
 "continue_button" = "جاری رکھیں";
-
 "choose_language" = "اپنی زبان منتخب کریں";
-"personalize_experience" = "اپنے Raseed کے تجربے کو ذاتی بنائیں۔";
-
+"personalize_experience" = "اپنے Expenzo کے تجربے کو ذاتی بنائیں۔";
 "what_should_we_call_you" = "ہم آپ کو کس نام سے پکاریں؟";
-"why_use_raseed" = "Raseed کیوں استعمال کریں؟";
-"instant_logging" = "فوری اخراجات کا اندراج";
+"why_use_raseed" = "Expenzo کیوں استعمال کریں؟";
+"instant_logging" = "فوری خرچہ درج کریں";
 "works_offline" = "مکمل طور پر آف لائن کام کرتا ہے";
 "smart_analytics" = "سمارٹ تجزیات";
 "private_secure" = "نجی اور محفوظ";
-
 "connect_workspace" = "اپنا ورک اسپیس منسلک کریں";
-"notion_sync_desc" = "بیک اپ، بصیرت اور انتظام کے لیے نویشن کے ساتھ اپنے اخراجات کو محفوظ طریقے سے ہم آہنگ کریں۔";
+"notion_sync_desc" = "بیک اپ اور بہتر انتظام کے لیے اپنے اخراجات کو نویشن کے ساتھ محفوظ طریقے سے سنک کریں۔";
 "cloud_backup" = "کلاؤڈ بیک اپ";
-"cross_device" = "مختلف آلات تک رسائی";
-"connect_notion_btn" = "نویشن کے ساتھ منسلک ہوں";
+"cross_device" = "کروس ڈیوائس رسائی";
+"connect_notion_btn" = "نویشن سے منسلک کریں";
 "continue_offline" = "آف لائن جاری رکھیں";
 "logout" = "لاگ آؤٹ";
-"edit_profile" = "پروفائل تبدیل کریں";
+"edit_profile" = "پروفائل ایڈٹ کریں";
 "your_name" = "آپ کا نام";
 "save_changes" = "تبدیلیاں محفوظ کریں";
 "edit_name" = "نام تبدیل کریں";
 "terms_of_service" = "سروس کی شرائط";
-"privacy_policy" = "پرائیویسی پالیسی";
+"privacy_policy" = "رازداری کی پالیسی";

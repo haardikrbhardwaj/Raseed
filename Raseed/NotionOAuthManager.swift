@@ -13,7 +13,7 @@ final class NotionOAuthManager: NSObject {
 
         authSession = ASWebAuthenticationSession(
             url: url,
-            callbackURLScheme: "raseed"
+            callbackURLScheme: "expenzo"
         ) { callbackURL, error in
 
             if let error = error {

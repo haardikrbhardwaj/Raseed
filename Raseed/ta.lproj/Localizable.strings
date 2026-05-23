@@ -1,91 +1,72 @@
-/* 
-  Localizable.strings
-  Raseed
-
-  Created by Hardik Bhardwaj on 23/05/26.
-  
-*/
 "settings" = "அமைப்புகள்";
 "language" = "மொழி";
 "analytics" = "பகுப்பாய்வு";
 "history" = "வரலாறு";
 "home" = "முகப்பு";
-
 "monthly_budget" = "மாதாந்திர பட்ஜெட்";
 "current_budget" = "தற்போதைய பட்ஜெட்";
 "update_budget" = "பட்ஜெட்டைப் புதுப்பி";
 "save_settings" = "அமைப்புகளைச் சேமி";
 "budget_updated" = "பட்ஜெட் புதுப்பிக்கப்பட்டது";
-
 "this_month" = "இந்த மாதம்";
 "budget" = "பட்ஜெட்";
 "expenses" = "செலவுகள்";
 "total_spent" = "மொத்த செலவு";
 "breakdown" = "விவரம்";
-"category_spending" = "வகை வாரியான செலவு";
-
+"category_spending" = "வகைவாரி செலவுகள்";
 "add_expense" = "செலவைச் சேர்";
 "save_expense" = "செலவைச் சேமி";
 "expense_saved" = "செலவு சேமிக்கப்பட்டது";
-
 "amount" = "தொகை";
 "merchant" = "வணிகர்";
 "category" = "வகை";
 "custom_category" = "தனிப்பயன் வகை";
-"enter_category_name" = "வகையின் பெயரை உள்ளிடவும்";
-
+"enter_category_name" = "வகை பெயரை உள்ளிடவும்";
 "food" = "உணவு";
 "travel" = "பயணம்";
 "shopping" = "ஷாப்பிங்";
-"bills" = "கட்டணங்கள்";
-"gym" = "உடற்பயிற்சிக்கூடம்";
+"bills" = "பில்கள்";
+"gym" = "ஜிம்";
 "fuel" = "எரிபொருள்";
 "medicine" = "மருந்து";
 "books" = "புத்தகங்கள்";
 "entertainment" = "பொழுதுபோக்கு";
-"other" = "இதர";
-
+"other" = "மற்றவை";
 "notifications" = "அறிவிப்புகள்";
 "ai_insights" = "AI நுண்ணறிவு";
 "notion_sync" = "நோஷன் ஒத்திசைவு";
-
 "coming_soon" = "விரைவில்";
-
 "currency" = "நாணயம்";
 "update_budget_placeholder" = "புதிய பட்ஜெட்டை உள்ளிடவும்";
-
 "doing_great" = "இந்த மாதம் நீங்கள் சிறப்பாகச் செய்கிறீர்கள்";
-"approaching_budget" = "நீங்கள் பட்ஜெட் எல்லையை நெருங்குகிறீர்கள்";
-"budget_limit_reached" = "ப产்ஜெட் எல்லை முடிவடையப் போகிறது";
+"approaching_budget" = "உங்கள் பட்ஜெட் எல்லையை நெருங்குகிறீர்கள்";
+"budget_limit_reached" = "பட்ஜெட் எல்லை முடிவடையப் போகிறது";
 "track_spending" = "உங்கள் செலவு நுண்ணறிவுகளைக் கண்காணிக்கவும்";
 "add" = "சேர்";
 "welcome_back" = "நல்வரவு";
 "no_expenses_yet" = "இன்னும் செலவுகள் எதுவும் இல்லை";
-"expenses_appear_here" = "உங்கள் செலவுகள் இங்கே காண்பிக்கப்படும்";
-"welcome_title" = "Raseed-க்கு உங்களை வரவேற்கிறோம்";
-"welcome_subtitle" = "அழகான மற்றும் புத்திசாலித்தனமான நிதி அனுபவத்துடன் உங்கள் செலவுகளை சிரமமின்றி கண்காணிக்கவும்.";
+"expenses_appear_here" = "உங்கள் செலவுகள் இங்கே தோன்றும்";
+"welcome_title" = "Expenzo-விற்கு உங்களை வரவேற்கிறோம்";
+"welcome_subtitle" = "அழகான மற்றும் புத்திசாலித்தனமான நிதி அனுபவத்துடன் செலவுகளை சிரமமின்றி கண்காணிக்கவும்.";
 "continue_button" = "தொடரவும்";
-
 "choose_language" = "உங்கள் மொழியைத் தேர்ந்தெடுக்கவும்";
-"personalize_experience" = "உங்கள் Raseed அனுபவத்தைத் தனிப்பயனாக்குங்கள்.";
-
-"what_should_we_call_you" = "உங்களை நாங்கள் எப்படி அழைக்க வேண்டும்?";
-"why_use_raseed" = "Raseed-ஐ ஏன் பயன்படுத்த வேண்டும்?";
+"personalize_experience" = "உங்கள் Expenzo அனுபவத்தைத் தனிப்பயனாக்குங்கள்.";
+"what_should_we_call_you" = "உங்களை நாங்கள் என்னவென்று அழைக்க வேண்டும்?";
+"why_use_raseed" = "ஏன் Expenzo-வை பயன்படுத்த வேண்டும்?";
 "instant_logging" = "உடனடி செலவுப் பதிவு";
 "works_offline" = "முழுமையாக ஆஃப்லைனில் வேலை செய்யும்";
-"smart_analytics" = "புத்திசாலித்தனமான பகுப்பாய்வு";
-"private_secure" = "தனிப்பட்டது மற்றும் பாதுகாப்பானது";
-
+"smart_analytics" = "ஸ்மார்ட் பகுப்பாய்வு";
+"private_secure" = "தனிப்பட்ட மற்றும் பாதுகாப்பானது";
 "connect_workspace" = "உங்கள் பணியிடத்தை இணைக்கவும்";
-"notion_sync_desc" = "காப்புப்பிரதி, நுண்ணறிவு மற்றும் ஒழுங்கமைப்பிற்காக நோஷனுடன் செலவுகளைப் பாதுகாப்பாக ஒத்திசைக்கவும்.";
+"notion_sync_desc" = "காப்புப்பிரதி மற்றும் சிறந்த நிர்வாகத்திற்காக உங்கள் செலவுகளை நோஷனுடன் பாதுகாப்பாக ஒத்திசைக்கவும்.";
 "cloud_backup" = "கிளவுட் காப்புப்பிரதி";
 "cross_device" = "சாதனங்களுக்கு இடையேயான அணுகல்";
 "connect_notion_btn" = "நோஷனுடன் இணைக்கவும்";
 "continue_offline" = "ஆஃப்லைனில் தொடரவும்";
 "logout" = "வெளியேறு";
-"edit_profile" = "சுயவிவரத்தைத் தொகு";
+"edit_profile" = "சுயவிவரத்தைத் திருத்து";
 "your_name" = "உங்கள் பெயர்";
 "save_changes" = "மாற்றங்களைச் சேமி";
-"edit_name" = "பெயரை மாற்று";
-"terms_of_service" = "சேவை ನಿಯಮಗಳು";
-"privacy_policy" = "தனியுரிமைக் கொள்கೆ";
+"edit_name" = "பெயரைத் திருத்து";
+"terms_of_service" = "சேவை விதிமுறைகள்";
+"privacy_policy" = "தனியுரிமைக் கொள்கை";

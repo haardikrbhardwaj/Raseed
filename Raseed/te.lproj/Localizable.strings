@@ -1,39 +1,27 @@
-/* 
-  Localizable.strings
-  Raseed
-
-  Created by Hardik Bhardwaj on 23/05/26.
-  
-*/
 "settings" = "సెట్టింగ్స్";
 "language" = "భాష";
 "analytics" = "విశ్లేషణ";
 "history" = "చరిత్ర";
 "home" = "హోమ్";
-
 "monthly_budget" = "నెలవారీ బడ్జెట్";
 "current_budget" = "ప్రస్తుత బడ్జెట్";
-"update_budget" = "బడ్జెట్ అప్‌డేట్ చేయండి";
-"save_settings" = "సెట్టింగ్స్ సేవ్ చేయండి";
-"budget_updated" = "బడ్జెట్ అప్‌డేట్ చేయబడింది";
-
+"update_budget" = "బడ్జెట్ అప్‌డేట్ చేయి";
+"save_settings" = "సెట్టింగ్స్ సేవ్ చేయి";
+"budget_updated" = "బడ్జెట్ అప్‌డేట్ అయింది";
 "this_month" = "ఈ నెల";
 "budget" = "బడ్జెట్";
 "expenses" = "ఖర్చులు";
 "total_spent" = "మొత్తం ఖర్చు";
 "breakdown" = "వివరాలు";
-"category_spending" = "కేటగిరీ వారీ ఖర్చులు";
-
-"add_expense" = "ఖర్చును జోడించండి";
-"save_expense" = "ఖర్చును సేవ్ చేయండి";
-"expense_saved" = "ఖర్చు సేవ్ చేయబడింది";
-
+"category_spending" = "వర్గాల వారీగా ఖర్చులు";
+"add_expense" = "ఖర్చును జోడించు";
+"save_expense" = "ఖర్చును సేవ్ చేయి";
+"expense_saved" = "ఖర్చు సేవ్ అయింది";
 "amount" = "మొత్తం";
 "merchant" = "వ్యాపారి";
-"category" = "కేటగిరీ";
-"custom_category" = "కస్టమ్ కేటగిరీ";
-"enter_category_name" = "కేటగిరీ పేరును నమోదు చేయండి";
-
+"category" = "వర్గం";
+"custom_category" = "కస్టమ్ వర్గం";
+"enter_category_name" = "వర్గం పేరును నమోదు చేయండి";
 "food" = "ఆహారం";
 "travel" = "ప్రయాణం";
 "shopping" = "షాపింగ్";
@@ -44,48 +32,41 @@
 "books" = "పుస్తకాలు";
 "entertainment" = "వినోదం";
 "other" = "ఇతరాలు";
-
 "notifications" = "నోటిఫికేషన్లు";
-"ai_insights" = "AI ఇన్సైట్స్";
+"ai_insights" = "AI అంతర్దృష్టులు";
 "notion_sync" = "నోషన్ సింక్";
-
 "coming_soon" = "త్వరలో వస్తుంది";
-
 "currency" = "కరెన్సీ";
-"update_budget_placeholder" = "కొత్త బడ్జెట్ నమోదు చేయండి";
-
-"doing_great" = "ఈ నెల మీరు చాలా బాగా మేనేజ్ చేస్తున్నారు";
+"update_budget_placeholder" = "కొత్త బడ్జెట్‌ను నమోదు చేయండి";
+"doing_great" = "ఈ నెలలో మీరు చాలా బాగా ఖర్చులను నియంత్రిస్తున్నారు";
 "approaching_budget" = "మీరు బడ్జెట్ పరిమితికి చేరుకుంటున్నారు";
 "budget_limit_reached" = "బడ్జెట్ పరిమితి దాదాపు ముగిసింది";
 "track_spending" = "మీ ఖర్చుల వివరాలను ట్రాక్ చేయండి";
-"add" = "జోడించండి";
-"welcome_back" = "మళ్ళీ స్వాగతం";
-"no_expenses_yet" = "ఇంకా ఎటువంటి ఖర్చులు లేవు";
+"add" = "జోడించు";
+"welcome_back" = "స్వాగతం";
+"no_expenses_yet" = "ఇంకా ఎలాంటి ఖర్చులు లేవు";
 "expenses_appear_here" = "మీ ఖర్చులు ఇక్కడ కనిపిస్తాయి";
-"welcome_title" = "Raseed కి స్వాగతం";
-"welcome_subtitle" = "అందమైన మరియు స్మార్ట్ ఆర్థిక అనుభవంతో మీ ఖర్చులను సులభంగా ట్రాక్ చేయండి.";
-"continue_button" = "కొనసాగించండి";
-
+"welcome_title" = "Expenzo కి స్వాగతం";
+"welcome_subtitle" = "అందమైన మరియు తెలివైన ఫైనాన్స్ అనుభవంతో ఖర్చులను సులభంగా ట్రాక్ చేయండి.";
+"continue_button" = "కొనసాగించు";
 "choose_language" = "మీ భాషను ఎంచుకోండి";
-"personalize_experience" = "మీ Raseed అనుభవాన్ని వ్యక్తిగతీకరించండి.";
-
-"what_should_we_call_you" = "మిమ్మల్ని మేము ఏమని పిలవాలి?";
-"why_use_raseed" = "Raseed ఎందుకు ఉపయోగించాలి?";
+"personalize_experience" = "మీ Expenzo అనుభవాన్ని వ్యక్తిగతీకరించుకోండి.";
+"what_should_we_call_you" = "మేము మిమ్మల్ని ఏమని పిలవాలి?";
+"why_use_raseed" = "Expenzo ని ఎందుకు ఉపయోగించాలి?";
 "instant_logging" = "తక్షణ ఖర్చుల నమోదు";
-"works_offline" = "పూర్తిగా ఆఫ్‌లైన్‌లో పనిచేస్తుంది";
-"smart_analytics" = "స్మార్ట్ అనలిటిక్స్";
-"private_secure" = "ప్రైవేట్ & సురక్షితం";
-
+"works_offline" = "పూర్తిగా ఆఫ్ లైన్ లో పనిచేస్తుంది";
+"smart_analytics" = "స్మార్ట్ విశ్లేషణ";
+"private_secure" = "వ్యక్తిగతం & సురక్షితం";
 "connect_workspace" = "మీ వర్క్‌స్పేస్‌ను కనెక్ట్ చేయండి";
-"notion_sync_desc" = "బ్యాకప్, ఇన్సైట్స్ మరియు ఆర్గనైజేషన్ కోసం నోషన్‌తో ఖర్చులను సురక్షితంగా సింక్ చేయండి.";
+"notion_sync_desc" = "బ్యాకప్ మరియు నిర్వహణ కోసం మీ ఖర్చులను నోషన్‌తో సురక్షితంగా సింక్ చేయండి.";
 "cloud_backup" = "క్లౌడ్ బ్యాకప్";
 "cross_device" = "క్రాస్-డివైస్ యాక్సెస్";
 "connect_notion_btn" = "నోషన్‌తో కనెక్ట్ అవ్వండి";
-"continue_offline" = "ఆఫ్‌లైన్‌లో కొనసాగించండి";
-"logout" = "లాగ్ అవుట్";
-"edit_profile" = "ప్రొఫైల్ సవరించు";
+"continue_offline" = "ఆఫ్‌లైన్‌లో కొనసాగించు";
+"logout" = "లాగౌట్";
+"edit_profile" = "ప్రొఫైల్ ఎడిట్ చేయి";
 "your_name" = "మీ పేరు";
 "save_changes" = "మార్పులను సేవ్ చేయి";
-"edit_name" = "పేరును సవరించు";
+"edit_name" = "పేరును మార్చు";
 "terms_of_service" = "సేవా నిబంధనలు";
 "privacy_policy" = "గోప్యతా విధానం";
