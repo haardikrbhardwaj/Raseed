@@ -50,7 +50,7 @@ struct BenefitsPage: View {
                     .foregroundStyle(.black)
                     .frame(maxWidth: .infinity)
                     .frame(height: 58)
-                    .background(Color.yellow)
+                    .background(Color.white)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
             }
             .padding(.horizontal, 24)
@@ -72,7 +72,7 @@ struct BenefitRow: View {
                 
                 Image(systemName: icon)
                     .font(.title3)
-                    .foregroundStyle(.yellow)
+                    .foregroundStyle(.white)
             }
             
             Text(LocalizedStringKey(titleKey))

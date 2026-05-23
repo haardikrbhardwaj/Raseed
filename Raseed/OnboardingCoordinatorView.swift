@@ -44,7 +44,7 @@ struct OnboardingCoordinatorView: View {
                             .frame(height: 4)
                             .foregroundStyle(
                                 index <= currentPage
-                                ? Color.yellow
+                                ? Color.white
                                 : Color.white.opacity(0.2)
                             )
                             .animation(.spring(), value: currentPage)

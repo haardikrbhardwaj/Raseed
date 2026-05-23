@@ -23,12 +23,12 @@ struct ConnectNotionPage: View {
                     .scaledToFill()
                     .frame(width: 72, height: 72)
                     .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-                    .shadow(color: .yellow.opacity(0.2), radius: 10)
+                    .shadow(color: .white.opacity(0.2), radius: 10)
                 
                 // Connection Link Arrow
                 Image(systemName: "arrow.left.and.right")
                     .font(.title2.bold())
-                    .foregroundStyle(.yellow)
+                    .foregroundStyle(.white)
                 
                 // 2. Notion Workspace Icon
                 Image("Unknown")
@@ -80,7 +80,7 @@ struct ConnectNotionPage: View {
                     }
                     .frame(maxWidth: .infinity)
                     .frame(height: 58)
-                    .background(Color.yellow)
+                    .background(Color.white)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                 }
                 

@@ -68,7 +68,7 @@ struct NameInputPage: View {
                     .background(
                         username.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
                         ? Color.gray
-                        : Color.yellow
+                        : Color.white
                     )
                     .clipShape(RoundedRectangle(cornerRadius: 20))
             }

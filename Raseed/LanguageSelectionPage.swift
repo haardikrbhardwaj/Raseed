@@ -61,7 +61,7 @@ struct LanguageSelectionPage: View {
                                 
                                 if languageManager.selectedLanguage == language.1 {
                                     Image(systemName: "checkmark.circle.fill")
-                                        .foregroundStyle(.yellow)
+                                        .foregroundStyle(.white)
                                 }
                             }
                             .padding()
@@ -69,7 +69,7 @@ struct LanguageSelectionPage: View {
                                 RoundedRectangle(cornerRadius: 22)
                                     .fill(
                                         languageManager.selectedLanguage == language.1
-                                        ? Color.yellow.opacity(0.15)
+                                        ? Color.white.opacity(0.15)
                                         : Color.white.opacity(0.05)
                                     )
                             )
@@ -90,7 +90,7 @@ struct LanguageSelectionPage: View {
                         .foregroundStyle(.black)
                         .frame(maxWidth: .infinity)
                         .frame(height: 58)
-                        .background(Color.yellow)
+                        .background(Color.white)
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                 }
                 .padding(.horizontal, 24)

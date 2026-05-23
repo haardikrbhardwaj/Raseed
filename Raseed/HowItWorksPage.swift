@@ -38,7 +38,7 @@ struct HowItWorksPage: View {
                 
                 Image(systemName: "arrow.down")
                     .font(.title2)
-                    .foregroundStyle(.yellow)
+                    .foregroundStyle(.white)
                 
                 // 2. Notion Sync Card (Custom asset styled as an iOS icon container)
                 FlowCard(
@@ -60,7 +60,7 @@ struct HowItWorksPage: View {
                     .foregroundStyle(.black)
                     .frame(maxWidth: .infinity)
                     .frame(height: 58)
-                    .background(Color.yellow)
+                    .background(Color.white)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
             }
             .padding(.horizontal, 24)
@@ -94,7 +94,7 @@ struct FlowCard: View {
                 case .system(let name):
                     Image(systemName: name)
                         .font(.title2)
-                        .foregroundStyle(.yellow)
+                        .foregroundStyle(.white)
                     
                 case .asset(let name):
                     Image(name)

@@ -23,7 +23,7 @@ struct WelcomePage: View {
                 .scaledToFill() // Ensures the image populates the squircle canvas fully
                 .frame(width: 130, height: 130)
                 .clipShape(RoundedRectangle(cornerRadius: 28, style: .continuous)) // Authentic iOS curvature for 130pt display size
-                .shadow(color: .yellow.opacity(0.3), radius: 25, x: 0, y: 10)
+                .shadow(color: .white.opacity(0.3), radius: 25, x: 0, y: 10)
             
             VStack(spacing: 14) {
                 
@@ -51,7 +51,7 @@ struct WelcomePage: View {
                     .foregroundStyle(.black)
                     .frame(maxWidth: .infinity)
                     .frame(height: 58)
-                    .background(Color.yellow)
+                    .background(Color.white)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
             }
             .padding(.horizontal, 24)
