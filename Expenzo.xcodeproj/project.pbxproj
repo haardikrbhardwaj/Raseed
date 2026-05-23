@@ -33,28 +33,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19398FDC2FC0B4F6009C0067 /* Raseed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raseed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19398FDC2FC0B4F6009C0067 /* Expenzo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expenzo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19398FEB2FC0B4F9009C0067 /* RaseedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaseedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		19398FF52FC0B4F9009C0067 /* RaseedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaseedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		193990422FC0BA8F009C0067 /* Exceptions for "Raseed" folder in "Raseed" target */ = {
+		193990422FC0BA8F009C0067 /* Exceptions for "Expenzo" folder in "Expenzo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 19398FDB2FC0B4F6009C0067 /* Raseed */;
+			target = 19398FDB2FC0B4F6009C0067 /* Expenzo */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		19398FDE2FC0B4F6009C0067 /* Raseed */ = {
+		19398FDE2FC0B4F6009C0067 /* Expenzo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				193990422FC0BA8F009C0067 /* Exceptions for "Raseed" folder in "Raseed" target */,
+				193990422FC0BA8F009C0067 /* Exceptions for "Expenzo" folder in "Expenzo" target */,
 			);
-			path = Raseed;
+			path = Expenzo;
 			sourceTree = "<group>";
 		};
 		19398FEE2FC0B4F9009C0067 /* RaseedTests */ = {
@@ -103,7 +103,7 @@
 		19398FD32FC0B4F6009C0067 = {
 			isa = PBXGroup;
 			children = (
-				19398FDE2FC0B4F6009C0067 /* Raseed */,
+				19398FDE2FC0B4F6009C0067 /* Expenzo */,
 				19398FEE2FC0B4F9009C0067 /* RaseedTests */,
 				19398FF82FC0B4F9009C0067 /* RaseedUITests */,
 				19398FDD2FC0B4F6009C0067 /* Products */,
@@ -113,7 +113,7 @@
 		19398FDD2FC0B4F6009C0067 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				19398FDC2FC0B4F6009C0067 /* Raseed.app */,
+				19398FDC2FC0B4F6009C0067 /* Expenzo.app */,
 				19398FEB2FC0B4F9009C0067 /* RaseedTests.xctest */,
 				19398FF52FC0B4F9009C0067 /* RaseedUITests.xctest */,
 			);
@@ -123,9 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		19398FDB2FC0B4F6009C0067 /* Raseed */ = {
+		19398FDB2FC0B4F6009C0067 /* Expenzo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 19398FFF2FC0B4F9009C0067 /* Build configuration list for PBXNativeTarget "Raseed" */;
+			buildConfigurationList = 19398FFF2FC0B4F9009C0067 /* Build configuration list for PBXNativeTarget "Expenzo" */;
 			buildPhases = (
 				19398FD82FC0B4F6009C0067 /* Sources */,
 				19398FD92FC0B4F6009C0067 /* Frameworks */,
@@ -136,9 +136,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				19398FDE2FC0B4F6009C0067 /* Raseed */,
+				19398FDE2FC0B4F6009C0067 /* Expenzo */,
 			);
-			name = Raseed;
+			name = Expenzo;
 			packageProductDependencies = (
 				193990332FC0B947009C0067 /* Auth */,
 				193990352FC0B947009C0067 /* Functions */,
@@ -148,7 +148,7 @@
 				1939903D2FC0B947009C0067 /* Supabase */,
 			);
 			productName = Raseed;
-			productReference = 19398FDC2FC0B4F6009C0067 /* Raseed.app */;
+			productReference = 19398FDC2FC0B4F6009C0067 /* Expenzo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		19398FEA2FC0B4F9009C0067 /* RaseedTests */ = {
@@ -252,7 +252,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				19398FDB2FC0B4F6009C0067 /* Raseed */,
+				19398FDB2FC0B4F6009C0067 /* Expenzo */,
 				19398FEA2FC0B4F9009C0067 /* RaseedTests */,
 				19398FF42FC0B4F9009C0067 /* RaseedUITests */,
 			);
@@ -310,12 +310,12 @@
 /* Begin PBXTargetDependency section */
 		19398FED2FC0B4F9009C0067 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 19398FDB2FC0B4F6009C0067 /* Raseed */;
+			target = 19398FDB2FC0B4F6009C0067 /* Expenzo */;
 			targetProxy = 19398FEC2FC0B4F9009C0067 /* PBXContainerItemProxy */;
 		};
 		19398FF72FC0B4F9009C0067 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 19398FDB2FC0B4F6009C0067 /* Raseed */;
+			target = 19398FDB2FC0B4F6009C0067 /* Expenzo */;
 			targetProxy = 19398FF62FC0B4F9009C0067 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -610,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		19398FFF2FC0B4F9009C0067 /* Build configuration list for PBXNativeTarget "Raseed" */ = {
+		19398FFF2FC0B4F9009C0067 /* Build configuration list for PBXNativeTarget "Expenzo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				193990002FC0B4F9009C0067 /* Debug */,
