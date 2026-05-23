@@ -1,11 +1,3 @@
-//
-//  Expense.swift
-//  Raseed
-//
-//  Created by Hardik Bhardwaj on 22/05/26.
-//
-
-
 import Foundation
 import SwiftData
 
@@ -34,6 +26,6 @@ final class Expense {
         self.category = category
         self.paymentMethod = paymentMethod
         self.notes = notes
-        self.createdAt = .now
+        self.createdAt = Date()
     }
 }

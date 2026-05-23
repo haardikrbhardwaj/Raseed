@@ -13,11 +13,10 @@ final class NotionOAuthManager: NSObject {
 
         authSession = ASWebAuthenticationSession(
             url: url,
-            callbackURLScheme: "expenzo"
+            callbackURLScheme: "raseed"
         ) { callbackURL, error in
 
             if let error = error {
-
                 print("OAuth Error:", error.localizedDescription)
                 return
             }
@@ -25,8 +24,6 @@ final class NotionOAuthManager: NSObject {
             guard let callbackURL else {
                 return
             }
-
-            print("Callback URL:", callbackURL)
 
             guard
                 let components = URLComponents(
@@ -40,16 +37,50 @@ final class NotionOAuthManager: NSObject {
                 print("No OAuth code found")
                 return
             }
-
-            print("OAuth Code:", code)
-
-            // NEXT STEP:
-            // Send code to backend server
+            
+            self.exchangeCodeWithVercel(code: code)
         }
 
         authSession?.presentationContextProvider = self
         authSession?.prefersEphemeralWebBrowserSession = true
         authSession?.start()
+    }
+    
+    private func exchangeCodeWithVercel(code: String) {
+        guard let url = URL(string: "https://raseed-backend.vercel.app/api/auth/token") else {
+            return
+        }
+        
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        
+        let body: [String: String] = ["code": code]
+        guard let jsonData = try? JSONSerialization.data(withJSONObject: body) else { return }
+        request.httpBody = jsonData
+        
+        URLSession.shared.dataTask(with: request) { data, response, error in
+            if let error = error {
+                print("Exchange failed:", error.localizedDescription)
+                return
+            }
+            
+            guard let data = data else { return }
+            
+            do {
+                if let json = try JSONSerialization.jsonObject(with: data) as? [String: Any] {
+                    if let accessToken = json["access_token"] as? String {
+                        UserDefaults.standard.set(accessToken, forKey: "notion_access_token")
+                        
+                        if let databaseId = json["duplicated_template_id"] as? String {
+                            UserDefaults.standard.set(databaseId, forKey: "notion_database_id")
+                        }
+                    }
+                }
+            } catch {
+                print("Failed to decode token:", error.localizedDescription)
+            }
+        }.resume()
     }
 }
 

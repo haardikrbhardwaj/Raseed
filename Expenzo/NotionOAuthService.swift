@@ -13,10 +13,11 @@ final class NotionOAuthService {
 
         let urlString =
         """
-        \(NotionConfig.authURL)?
-        owner=user&
-        client_id=\(NotionConfig.clientID)&
-        response_type=code&
+        \(NotionConfig.authURL)?\
+        owner=user&\
+        client_id=\
+        \(NotionConfig.clientID)&\
+        response_type=code&\
         redirect_uri=\(redirect)
         """
         .replacingOccurrences(of: "\n", with: "")

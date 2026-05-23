@@ -6,26 +6,17 @@ import SwiftData
 final class AddExpenseViewModel: ObservableObject {
 
     @Published var amount = ""
-
     @Published var merchant = ""
-    
     @Published var customCategory = ""
-
-    @Published var selectedCategory =
+    @Published var selectedCategory = Category.mock.first!
     
-    Category.mock.first!
-    
-    
-    func saveExpense(
-        context: ModelContext
-    ) async {
+    func saveExpense(context: ModelContext) async {
 
         guard let value = Double(amount) else {
             return
         }
 
-        let finalCategory =
-        selectedCategory.name == "Other"
+        let finalCategory = selectedCategory.name == "Other"
         ? customCategory
         : selectedCategory.name
 
@@ -35,25 +26,11 @@ final class AddExpenseViewModel: ObservableObject {
             category: finalCategory
         )
 
-        context.insert(expense)
+        await NotionSyncEngine.shared.saveAndSyncExpense(expense, context: context)
 
-        do {
-
-            try context.save()
-
-            await MainActor.run {
-
-                amount = ""
-
-                merchant = ""
-
-                customCategory = ""
-
-                selectedCategory = Category.mock.first!
-            }
-
-        } catch {
-
-            print(error)
-        }
-    }}
+        amount = ""
+        merchant = ""
+        customCategory = ""
+        selectedCategory = Category.mock.first!
+    }
+}

@@ -1,11 +1,3 @@
-//
-//  NotionConnectView.swift
-//  Raseed
-//
-//  Created by Hardik Bhardwaj on 22/05/26.
-//
-
-
 import SwiftUI
 
 struct NotionConnectView: View {
@@ -29,9 +21,7 @@ struct NotionConnectView: View {
 
             Button {
 
-                UIApplication.shared.open(
-                    NotionOAuthService.shared.loginURL()
-                )
+                NotionOAuthManager.shared.startOAuthFlow()
 
             } label: {
 
