@@ -27,7 +27,7 @@ struct SettingsView: View {
 
                         // MARK: HEADER
 
-                        Text("Settings")
+                        Text("settings")
                             .font(.largeTitle.bold())
                             .foregroundColor(.white)
 
@@ -40,49 +40,60 @@ struct SettingsView: View {
                             } label: {
 
                                 settingsRow(
-                                    title: "Monthly Budget",
+                                    title: "monthly_budget",
                                     icon: "target"
+                                )
+                            }
+                            NavigationLink {
+
+                                LanguageSettingsView()
+
+                            } label: {
+
+                                settingsRow(
+                                    title: "language",
+                                    icon: "globe"
                                 )
                             }
 
                             NavigationLink {
 
-                                Text("Coming Soon")
+                                Text("coming_soon")
                                     .foregroundColor(.white)
                                     .background(Color.black)
 
                             } label: {
 
                                 settingsRow(
-                                    title: "Notion Sync",
+                                    title: "notion_sync",
                                     icon: "link"
                                 )
                             }
 
                             NavigationLink {
 
-                                Text("Coming Soon")
+                                Text("coming_soon")
                                     .foregroundColor(.white)
                                     .background(Color.black)
 
                             } label: {
 
                                 settingsRow(
-                                    title: "AI Insights",
+                                    title: "ai_insights",
                                     icon: "sparkles"
                                 )
                             }
 
                             NavigationLink {
 
-                                Text("Coming Soon")
+                                Text("coming_soon")
                                     .foregroundColor(.white)
                                     .background(Color.black)
 
                             } label: {
 
                                 settingsRow(
-                                    title: "Notifications",
+                                    title: "notifications",
                                     icon: "bell"
                                 )
                             }
@@ -96,7 +107,6 @@ struct SettingsView: View {
     }
 
     // MARK: SETTINGS ROW
-
     func settingsRow(
         title: String,
         icon: String
@@ -105,10 +115,12 @@ struct SettingsView: View {
         HStack {
 
             Image(systemName: icon)
-                .foregroundColor(.yellow)
-
-            Text(title)
                 .foregroundColor(.white)
+
+            Text(
+                LocalizedStringKey(title)
+            )
+            .foregroundColor(.white)
 
             Spacer()
 

@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  Raseed
+
+  Created by Hardik Bhardwaj on 23/05/26.
+  
+*/
+"settings" = "அமைப்புகள்";
+"language" = "மொழி";
+"analytics" = "பகுப்பாய்வு";
+"history" = "வரலாறு";
+"home" = "முகப்பு";
+
+"monthly_budget" = "மாதாந்திர பட்ஜெட்";
+"current_budget" = "தற்போதைய பட்ஜெட்";
+"update_budget" = "பட்ஜெட்டைப் புதுப்பி";
+"save_settings" = "அமைப்புகளைச் சேமி";
+"budget_updated" = "பட்ஜெட் புதுப்பிக்கப்பட்டது";
+
+"this_month" = "இந்த மாதம்";
+"budget" = "பட்ஜெட்";
+"expenses" = "செலவுகள்";
+"total_spent" = "மொத்த செலவு";
+"breakdown" = "விவரம்";
+"category_spending" = "வகை வாரியான செலவு";
+
+"add_expense" = "செலவைச் சேர்";
+"save_expense" = "செலவைச் சேமி";
+"expense_saved" = "செலவு சேமிக்கப்பட்டது";
+
+"amount" = "தொகை";
+"merchant" = "வணிகர்";
+"category" = "வகை";
+"custom_category" = "தனிப்பயன் வகை";
+"enter_category_name" = "வகையின் பெயரை உள்ளிடவும்";
+
+"food" = "உணவு";
+"travel" = "பயணம்";
+"shopping" = "ஷாப்பிங்";
+"bills" = "கட்டணங்கள்";
+"gym" = "உடற்பயிற்சிக்கூடம்";
+"fuel" = "எரிபொருள்";
+"medicine" = "மருந்து";
+"books" = "புத்தகங்கள்";
+"entertainment" = "பொழுதுபோக்கு";
+"other" = "இதர";
+
+"notifications" = "அறிவிப்புகள்";
+"ai_insights" = "AI நுண்ணறிவு";
+"notion_sync" = "நோஷன் ஒத்திசைவு";
+
+"coming_soon" = "விரைவில்";
+
+"currency" = "நாணயம்";
+"update_budget_placeholder" = "புதிய பட்ஜெட்டை உள்ளிடவும்";
+
+"doing_great" = "இந்த மாதம் நீங்கள் சிறப்பாகச் செய்கிறீர்கள்";
+"approaching_budget" = "நீங்கள் பட்ஜெட் எல்லையை நெருங்குகிறீர்கள்";
+"budget_limit_reached" = "ப产்ஜெட் எல்லை முடிவடையப் போகிறது";
+"track_spending" = "உங்கள் செலவு நுண்ணறிவுகளைக் கண்காணிக்கவும்";
+"add" = "சேர்";
+"welcome_back" = "நல்வரவு";

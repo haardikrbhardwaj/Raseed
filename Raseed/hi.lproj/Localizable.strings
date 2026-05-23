@@ -1,0 +1,55 @@
+"settings" = "सेटिंग्स";
+"language" = "भाषा";
+"analytics" = "विश्लेषण";
+"history" = "इतिहास";
+"home" = "होम";
+
+"monthly_budget" = "मासिक बजट";
+"current_budget" = "वर्तमान बजट";
+"update_budget" = "बजट अपडेट करें";
+"save_settings" = "सेटिंग्स सहेजें";
+"budget_updated" = "बजट अपडेट हो गया";
+
+"this_month" = "इस महीने";
+"budget" = "बजट";
+"expenses" = "खर्चे";
+"total_spent" = "कुल खर्च";
+"breakdown" = "विवरण";
+"category_spending" = "श्रेणी वार खर्च";
+
+"add_expense" = "खर्च जोड़ें";
+"save_expense" = "खर्च सहेजें";
+"expense_saved" = "खर्च सहेज लिया गया";
+
+"amount" = "राशि";
+"merchant" = "व्यापारी";
+"category" = "श्रेणी";
+"custom_category" = "कस्टम श्रेणी";
+"enter_category_name" = "श्रेणी का नाम दर्ज करें";
+
+"food" = "भोजन";
+"travel" = "यात्रा";
+"shopping" = "शॉपिंग";
+"bills" = "बिल";
+"gym" = "जिम";
+"fuel" = "इंधन";
+"medicine" = "दवाई";
+"books" = "किताबें";
+"entertainment" = "मनोरंजन";
+"other" = "अन्य";
+
+"notifications" = "नोटिफिकेशन";
+"ai_insights" = "एआई इनसाइट्स";
+"notion_sync" = "नोशन सिंक";
+
+"coming_soon" = "जल्द आ रहा है";
+
+"currency" = "मुद्रा";
+"update_budget_placeholder" = "नया बजट दर्ज करें";
+
+"doing_great" = "इस महीने आप बहुत अच्छा कर रहे हैं";
+"approaching_budget" = "आप अपने बजट के करीब पहुँच रहे हैं";
+"budget_limit_reached" = "बजट सीमा समाप्त होने वाली है";
+"track_spending" = "अपने खर्चों के विश्लेषण पर नज़र रखें";
+"add" = "जोड़ें";
+"welcome_back" = "आपका स्वागत है";

@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  Raseed
+
+  Created by Hardik Bhardwaj on 23/05/26.
+  
+*/
+"settings" = "Ρυθμίσεις";
+"language" = "Γλώσσα";
+"analytics" = "Στατιστικά";
+"history" = "Ιστορικό";
+"home" = "Αρχική";
+
+"monthly_budget" = "Μηνιαίος Προϋπολογισμός";
+"current_budget" = "Τρέχων Προϋπολογισμός";
+"update_budget" = "Ενημέρωση Προϋπολογισμού";
+"save_settings" = "Αποθήκευση Ρυθμίσεων";
+"budget_updated" = "Ο προϋπολογισμός ενημερώθηκε";
+
+"this_month" = "Αυτόν τον μήνα";
+"budget" = "Προϋπολογισμός";
+"expenses" = "Έξοδα";
+"total_spent" = "Συνολικά Έξοδα";
+"breakdown" = "Ανάλυση";
+"category_spending" = "Έξοδα ανά Κατηγορία";
+
+"add_expense" = "Προσθήκη Εξόδου";
+"save_expense" = "Αποθήκευση Εξόδου";
+"expense_saved" = "Το έξοδο αποθηκεύτηκε";
+
+"amount" = "Ποσό";
+"merchant" = "Έμπορος";
+"category" = "Κατηγορία";
+"custom_category" = "Προσαρμοσμένη Κατηγορία";
+"enter_category_name" = "Εισαγάγετε όνομα κατηγορίας";
+
+"food" = "Φαγητό";
+"travel" = "Ταξίδια";
+"shopping" = "Ψώνια";
+"bills" = "Λογαριασμοί";
+"gym" = "Γυμναστήριο";
+"fuel" = "Καύσιμα";
+"medicine" = "Φάρμακα";
+"books" = "Βιβλία";
+"entertainment" = "Διασκέδαση";
+"other" = "Άλλα";
+
+"notifications" = "Ειδοποιήσεις";
+"ai_insights" = "Αναλύσεις AI";
+"notion_sync" = "Συγχρονισμός Notion";
+
+"coming_soon" = "Σύντομα Διαθέσιμο";
+
+"currency" = "Νόμισμα";
+"update_budget_placeholder" = "Εισαγάγετε νέο προϋπολογισμό";
+
+"doing_great" = "Τα πάτε εξαιρετικά αυτόν τον μήνα";
+"approaching_budget" = "Πλησιάζετε το όριο του προϋπολογισμού σας";
+"budget_limit_reached" = "Σχεδόν φτάσατε το όριο του προϋπολογισμού";
+"track_spending" = "Παρακολουθήστε την ανάλυση των εξόδων σας";
+"add" = "Προσθήκη";
+"welcome_back" = "Καλώς ήρθατε ξανά";

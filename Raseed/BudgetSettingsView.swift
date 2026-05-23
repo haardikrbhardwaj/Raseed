@@ -38,7 +38,7 @@ struct BudgetSettingsView: View {
                 spacing: 24
             ) {
 
-                Text("Monthly Budget")
+                Text("monthly_budget")
                     .font(.largeTitle.bold())
                     .foregroundColor(.white)
 
@@ -54,7 +54,7 @@ struct BudgetSettingsView: View {
                         spacing: 8
                     ) {
 
-                        Text("Current Budget")
+                        Text("update_budget")
                             .foregroundColor(.gray)
 
                         Text(
@@ -79,7 +79,7 @@ struct BudgetSettingsView: View {
                         spacing: 12
                     ) {
 
-                        Text("Currency")
+                        Text("currency")
                             .foregroundColor(.gray)
 
                         Menu {
@@ -155,11 +155,11 @@ struct BudgetSettingsView: View {
                         spacing: 12
                     ) {
 
-                        Text("Update Budget")
+                        Text("update_budget")
                             .foregroundColor(.gray)
 
                         TextField(
-                            "Enter new budget",
+                            "update_budget_placeholder",
                             text: $budgetInput
                         )
                         .keyboardType(.decimalPad)
@@ -216,7 +216,7 @@ struct BudgetSettingsView: View {
                             )
                             .fill(Color.white)
 
-                            Text("Save Settings")
+                            Text("save_settings")
                                 .foregroundColor(.black)
                                 .fontWeight(.bold)
                         }
@@ -245,7 +245,7 @@ struct BudgetSettingsView: View {
                     .font(.system(size: 55))
                     .foregroundColor(.gray)
 
-                    Text("Settings Updated")
+                    Text("settings_updated")
                         .foregroundColor(.white)
                         .font(.headline)
                 }

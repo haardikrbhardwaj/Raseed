@@ -1,17 +1,14 @@
-//
-//  AnalyticsView.swift
-//  Raseed
-//
-//  Created by Hardik Bhardwaj on 22/05/26.
-//
-
 import SwiftUI
 import SwiftData
 import Charts
 
 struct AnalyticsView: View {
+
     @AppStorage("selectedCurrency")
     private var selectedCurrency = "₹"
+
+    @StateObject
+    private var languageManager = LanguageManager.shared
 
     @Query(
         sort: \Expense.createdAt,
@@ -42,11 +39,11 @@ struct AnalyticsView: View {
                             spacing: 8
                         ) {
 
-                            Text("Analytics")
+                            Text("analytics")
                                 .font(.largeTitle.bold())
                                 .foregroundColor(.white)
 
-                            Text("Track your spending insights")
+                            Text("track_spending")
                                 .foregroundColor(.gray)
                         }
 
@@ -55,14 +52,20 @@ struct AnalyticsView: View {
                         HStack(spacing: 16) {
 
                             analyticsCard(
-                                title: "Total Spent",
+                                title: NSLocalizedString(
+                                    "total_spent",
+                                    comment: ""
+                                ),
                                 value: "\(selectedCurrency) \(Int(totalSpent))",
                                 icon: "wallet.pass.fill",
                                 color: .yellow
                             )
 
                             analyticsCard(
-                                title: "Expenses",
+                                title: NSLocalizedString(
+                                    "expenses",
+                                    comment: ""
+                                ),
                                 value: "\(expenses.count)",
                                 icon: "chart.bar.fill",
                                 color: .orange
@@ -76,7 +79,7 @@ struct AnalyticsView: View {
                             spacing: 16
                         ) {
 
-                            Text("Category Spending")
+                            Text("category_spending")
                                 .foregroundColor(.white)
                                 .font(.headline)
 
@@ -87,20 +90,25 @@ struct AnalyticsView: View {
                                     id: \.category
                                 ) { item in
 
+                                    let localizedName = NSLocalizedString(
+                                        item.category.lowercased(),
+                                        comment: ""
+                                    )
+
                                     BarMark(
                                         x: .value(
-                                            "Category",
-                                            item.category
+                                            "category",
+                                            localizedName
                                         ),
                                         y: .value(
-                                            "Amount",
+                                            "amount",
                                             item.total
                                         )
                                     )
                                     .foregroundStyle(
                                         by: .value(
-                                            "Category",
-                                            item.category
+                                            "category",
+                                            localizedName
                                         )
                                     )
                                     .cornerRadius(8)
@@ -121,7 +129,7 @@ struct AnalyticsView: View {
                             spacing: 16
                         ) {
 
-                            Text("Breakdown")
+                            Text("breakdown")
                                 .foregroundColor(.white)
                                 .font(.headline)
 
@@ -136,22 +144,16 @@ struct AnalyticsView: View {
 
                                         Circle()
                                             .fill(
-                                                categoryColor(
-                                                    item.category
-                                                )
-                                                .opacity(0.2)
+                                                categoryColor(item.category)
+                                                    .opacity(0.2)
                                             )
                                             .frame(
                                                 width: 50,
                                                 height: 50
                                             )
 
-                                        Text(
-                                            categoryIcon(
-                                                item.category
-                                            )
-                                        )
-                                        .font(.title3)
+                                        Text(categoryIcon(item.category))
+                                            .font(.title3)
                                     }
 
                                     VStack(
@@ -159,12 +161,16 @@ struct AnalyticsView: View {
                                         spacing: 4
                                     ) {
 
-                                        Text(item.category)
-                                            .foregroundColor(.white)
-                                            .fontWeight(.semibold)
+                                        Text(
+                                            LocalizedStringKey(
+                                                item.category.lowercased()
+                                            )
+                                        )
+                                        .foregroundColor(.white)
+                                        .fontWeight(.semibold)
 
                                         Text(
-                                            "\(percentage(for: item.total))% of spending"
+                                            "\(percentage(for: item.total))% \(NSLocalizedString("of_spending", comment: ""))"
                                         )
                                         .foregroundColor(.gray)
                                         .font(.caption)
@@ -172,16 +178,16 @@ struct AnalyticsView: View {
 
                                     Spacer()
 
-                                    Text("\(selectedCurrency) \(Int(item.total))")
-                                        .foregroundColor(.white)
-                                        .fontWeight(.bold)
+                                    Text(
+                                        "\(selectedCurrency) \(Int(item.total))"
+                                    )
+                                    .foregroundColor(.white)
+                                    .fontWeight(.bold)
                                 }
                                 .padding()
                                 .background(AppColors.card)
                                 .clipShape(
-                                    RoundedRectangle(
-                                        cornerRadius: 24
-                                    )
+                                    RoundedRectangle(cornerRadius: 24)
                                 )
                             }
                         }
@@ -190,16 +196,14 @@ struct AnalyticsView: View {
                 }
             }
             .navigationBarHidden(true)
+            .id(languageManager.selectedLanguage)
         }
     }
 
     // MARK: TOTAL SPENT
 
     private var totalSpent: Double {
-
-        expenses.reduce(0) {
-            $0 + $1.amount
-        }
+        expenses.reduce(0) { $0 + $1.amount }
     }
 
     // MARK: CATEGORY TOTALS
@@ -208,21 +212,16 @@ struct AnalyticsView: View {
 
         let grouped = Dictionary(
             grouping: expenses,
-            by: { $0.category }
+            by: { $0.category.lowercased().capitalized }
         )
 
         return grouped.map {
-
             CategoryTotal(
                 category: $0.key,
-                total: $0.value.reduce(0) {
-                    $0 + $1.amount
-                }
+                total: $0.value.reduce(0) { $0 + $1.amount }
             )
         }
-        .sorted {
-            $0.total > $1.total
-        }
+        .sorted { $0.total > $1.total }
     }
 
     // MARK: ANALYTICS CARD
@@ -252,9 +251,7 @@ struct AnalyticsView: View {
         }
         .frame(maxWidth: .infinity)
         .padding()
-        .background(
-            color.opacity(0.15)
-        )
+        .background(color.opacity(0.15))
         .clipShape(
             RoundedRectangle(cornerRadius: 28)
         )
@@ -262,94 +259,42 @@ struct AnalyticsView: View {
 
     // MARK: PERCENTAGE
 
-    private func percentage(
-        for value: Double
-    ) -> Int {
-
-        guard totalSpent > 0 else {
-            return 0
-        }
-
+    private func percentage(for value: Double) -> Int {
+        guard totalSpent > 0 else { return 0 }
         return Int((value / totalSpent) * 100)
     }
 
     // MARK: ICONS
 
-    private func categoryIcon(
-        _ category: String
-    ) -> String {
-
+    private func categoryIcon(_ category: String) -> String {
         switch category.lowercased() {
-
-        case "food":
-            return "🍔"
-
-        case "travel":
-            return "🚕"
-
-        case "shopping":
-            return "🛍"
-
-        case "bills":
-            return "📄"
-
-        case "gym":
-            return "🏋️"
-
-        case "fuel":
-            return "⛽️"
-
-        case "medicine":
-            return "💊"
-
-        case "books":
-            return "📚"
-
-        case "entertainment":
-            return "🎬"
-
-        default:
-            return "✨"
+        case "food":          return "🍔"
+        case "travel":        return "🚕"
+        case "shopping":      return "🛍"
+        case "bills":         return "📄"
+        case "gym":           return "🏋️"
+        case "fuel":          return "⛽️"
+        case "medicine":      return "💊"
+        case "books":         return "📚"
+        case "entertainment": return "🎬"
+        default:              return "✨"
         }
     }
 
     // MARK: COLORS
 
-    private func categoryColor(
-        _ category: String
-    ) -> Color {
-
+    private func categoryColor(_ category: String) -> Color {
         switch category.lowercased() {
-
-        case "food":
-            return .orange
-
-        case "travel":
-            return .blue
-
-        case "shopping":
-            return .purple
-
-        case "bills":
-            return .green
-
-        case "gym":
-            return .yellow
-
-        case "fuel":
-            return .orange
-
-        case "medicine":
-            return .red
-
-        case "books":
-            return .green
-
-        case "entertainment":
-            return .pink
-
-        default:
-            return .gray
+        case "food":          return .orange
+        case "travel":        return .blue
+        case "shopping":      return .purple
+        case "bills":         return .green
+        case "gym":           return .yellow
+        case "fuel":          return .orange
+        case "medicine":      return .red
+        case "books":         return .green
+        case "entertainment": return .pink
+        default:              return .gray
         }
     }
 }
@@ -357,8 +302,6 @@ struct AnalyticsView: View {
 // MARK: MODEL
 
 struct CategoryTotal {
-
     let category: String
-
     let total: Double
 }

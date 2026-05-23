@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  Raseed
+
+  Created by Hardik Bhardwaj on 23/05/26.
+  
+*/
+"settings" = "ਸੈਟਿੰਗਾਂ";
+"language" = "ਭਾਸ਼ਾ";
+"analytics" = "ਵਿਸ਼ਲੇਸ਼ਣ";
+"history" = "ਇਤਿਹਾਸ";
+"home" = "ਹੋਮ";
+
+"monthly_budget" = "ਮਹੀਨਾਵਾਰ ਬਜਟ";
+"current_budget" = "ਮੌਜੂਦਾ ਬਜਟ";
+"update_budget" = "ਬਜਟ ਅੱਪਡੇਟ ਕਰੋ";
+"save_settings" = "ਸੈਟਿੰਗਾਂ ਸੰਭਾਲੋ";
+"budget_updated" = "ਬਜਟ ਅੱਪਡੇਟ ਹੋ ਗਿਆ";
+
+"this_month" = "ਇਸ ਮਹੀਨੇ";
+"budget" = "ਬਜਟ";
+"expenses" = "ਖਰਚੇ";
+"total_spent" = "ਕੁੱਲ ਖਰਚਾ";
+"breakdown" = "ਵੇਰਵਾ";
+"category_spending" = "ਕੈਟੇਗਰੀ ਮੁਤਾਬਕ ਖਰਚਾ";
+
+"add_expense" = "ਖਰਚਾ ਜੋੜੋ";
+"save_expense" = "ਖਰਚਾ ਸੰਭਾਲੋ";
+"expense_saved" = "ਖਰਚਾ ਸੰਭਾਲਿਆ ਗਿਆ";
+
+"amount" = "ਰਕਮ";
+"merchant" = "ਵਪਾਰੀ";
+"category" = "ਕੈਟੇਗਰੀ";
+"custom_category" = "ਕਸਟਮ ਕੈਟੇਗਰੀ";
+"enter_category_name" = "ਕੈਟੇਗਰੀ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ";
+
+"food" = "ਖਾਣਾ";
+"travel" = "ਯਾਤਰਾ";
+"shopping" = "ਖਰੀਦਦਾਰੀ";
+"bills" = "ਬਿੱਲ";
+"gym" = "ਜਿੰਮ";
+"fuel" = "ਤੇਲ";
+"medicine" = "ਦਵਾਈਆਂ";
+"books" = "ਕਿਤਾਬਾਂ";
+"entertainment" = "ਮਨੋਰੰਜਨ";
+"other" = "ਹੋਰ";
+
+"notifications" = "ਨੋਟੀਫਿਕੇਸ਼ਨ";
+"ai_insights" = "AI ਇਨਸਾਈਟਸ";
+"notion_sync" = "ਨੋਸ਼ਨ ਸਿੰਕ";
+
+"coming_soon" = "ਜਲਦੀ ਆ ਰਿਹਾ ਹੈ";
+
+"currency" = "ਕਰੰਸੀ";
+"update_budget_placeholder" = "ਨਵਾਂ ਬਜਟ ਦਰਜ ਕਰੋ";
+
+"doing_great" = "ਤੁਸੀਂ ਇਸ ਮਹੀਨੇ ਬਹੁਤ ਵਧੀਆ ਕਰ ਰਹੇ ਹੋ";
+"approaching_budget" = "ਤੁਸੀਂ ਆਪਣੇ ਬਜਟ ਦੇ ਨੇੜੇ ਪਹੁੰਚ ਰਹੇ ਹੋ";
+"budget_limit_reached" = "ਬਜਟ ਦੀ ਸੀਮਾ ਖਤਮ ਹੋਣ ਵਾਲੀ ਹੈ";
+"track_spending" = "ਆਪਣੇ ਖਰਚਿਆਂ ਦੇ ਵੇਰਵੇ 'ਤੇ ਨਜ਼ਰ ਰੱਖੋ";
+"add" = "ਜੋੜੋ";
+"welcome_back" = "ਜੀ ਆਇਆਂ ਨੂੰ";

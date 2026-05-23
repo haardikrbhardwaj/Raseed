@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct BalanceCard: View {
+
     @AppStorage("selectedCurrency")
     private var selectedCurrency = "₹"
 
@@ -30,17 +31,19 @@ struct BalanceCard: View {
                     spacing: 6
                 ) {
 
-                    Text("This Month")
+                    Text("this_month")
                         .foregroundColor(.gray)
 
-                    Text("\(selectedCurrency) \(Int(totalSpent))")
-                        .font(
-                            .system(
-                                size: 42,
-                                weight: .bold
-                            )
+                    Text(
+                        "\(selectedCurrency) \(Int(totalSpent))"
+                    )
+                    .font(
+                        .system(
+                            size: 42,
+                            weight: .bold
                         )
-                        .foregroundColor(.white)
+                    )
+                    .foregroundColor(.white)
                 }
 
                 Spacer()
@@ -78,11 +81,13 @@ struct BalanceCard: View {
 
                 HStack {
 
-                    Text(
-                        "Budget \(selectedCurrency) \(Int(monthlyBudget))"
-                    )
-                    .foregroundColor(.gray)
+                    HStack(spacing: 4) {
 
+                        Text("budget")
+                        
+                        Text("\(selectedCurrency) \(Int(monthlyBudget))")
+                    }
+                    .foregroundColor(.gray)
                     Spacer()
 
                     Text(
@@ -161,19 +166,19 @@ struct BalanceCard: View {
 
     // MARK: STATUS MESSAGE
 
-    private var statusMessage: String {
+    private var statusMessage: LocalizedStringKey {
 
         if progressValue < 0.5 {
 
-            return "You're doing great this month"
+            return "doing_great"
 
         } else if progressValue < 0.8 {
 
-            return "You're approaching your budget"
+            return "approaching_budget"
 
         } else {
 
-            return "Budget limit almost reached"
+            return "budget_limit_reached"
         }
     }
 }

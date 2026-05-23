@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  Raseed
+
+  Created by Hardik Bhardwaj on 23/05/26.
+  
+*/
+"settings" = "Ajustes";
+"language" = "Idioma";
+"analytics" = "Análisis";
+"history" = "Historial";
+"home" = "Inicio";
+
+"monthly_budget" = "Presupuesto mensual";
+"current_budget" = "Presupuesto actual";
+"update_budget" = "Actualizar presupuesto";
+"save_settings" = "Guardar ajustes";
+"budget_updated" = "Presupuesto actualizado";
+
+"this_month" = "Este mes";
+"budget" = "Presupuesto";
+"expenses" = "Gastos";
+"total_spent" = "Total gastado";
+"breakdown" = "Desglose";
+"category_spending" = "Gastos por categoría";
+
+"add_expense" = "Añadir gasto";
+"save_expense" = "Guardar gasto";
+"expense_saved" = "Gasto guardado";
+
+"amount" = "Cantidad";
+"merchant" = "Comercio";
+"category" = "Categoría";
+"custom_category" = "Categoría personalizada";
+"enter_category_name" = "Introduce el nombre de la categoría";
+
+"food" = "Comida";
+"travel" = "Viajes";
+"shopping" = "Compras";
+"bills" = "Facturas";
+"gym" = "Gimnasio";
+"fuel" = "Combustible";
+"medicine" = "Medicina";
+"books" = "Libros";
+"entertainment" = "Entretenimiento";
+"other" = "Otros";
+
+"notifications" = "Notificaciones";
+"ai_insights" = "Análisis de IA";
+"notion_sync" = "Sincronización con Notion";
+
+"coming_soon" = "Próximamente";
+
+"currency" = "Moneda";
+"update_budget_placeholder" = "Introduce el nuevo presupuesto";
+
+"doing_great" = "Lo estás haciendo genial este mes";
+"approaching_budget" = "Te estás acercando a tu presupuesto";
+"budget_limit_reached" = "Límite de presupuesto casi alcanzado";
+"track_spending" = "Sigue la evolución de tus gastos";
+"add" = "Añadir";
+"welcome_back" = "Bienvenido de nuevo";

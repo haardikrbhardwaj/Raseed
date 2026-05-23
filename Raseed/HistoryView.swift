@@ -6,6 +6,9 @@ struct HistoryView: View {
     @Environment(\.modelContext)
     private var context
 
+    @StateObject
+    private var languageManager = LanguageManager.shared
+
     @Query(
         sort: \Expense.createdAt,
         order: .reverse
@@ -29,11 +32,11 @@ struct HistoryView: View {
                             .font(.system(size: 60))
                             .foregroundColor(.gray)
 
-                        Text("No Expenses Yet")
+                        Text("no_expenses_yet")
                             .font(.title2.bold())
                             .foregroundColor(.white)
 
-                        Text("Your expenses will appear here")
+                        Text("expenses_appear_here")
                             .foregroundColor(.gray)
                     }
 
@@ -56,20 +59,16 @@ struct HistoryView: View {
                                     trailing: 16
                                 )
                             )
-                            .swipeActions(
-                                edge: .trailing
-                            ) {
+                            .swipeActions(edge: .trailing) {
 
-                                Button(
-                                    role: .destructive
-                                ) {
+                                Button(role: .destructive) {
 
                                     deleteExpense(expense)
 
                                 } label: {
 
                                     Label(
-                                        "Delete",
+                                        NSLocalizedString("delete", comment: ""),
                                         systemImage: "trash.fill"
                                     )
                                 }
@@ -81,25 +80,23 @@ struct HistoryView: View {
                     .background(Color.black)
                 }
             }
-            .navigationTitle("History")
+            .navigationTitle(
+                NSLocalizedString("history", comment: "")
+            )
             .navigationBarTitleDisplayMode(.large)
+            .id(languageManager.selectedLanguage)
         }
     }
 
-    private func deleteExpense(
-        _ expense: Expense
-    ) {
+    private func deleteExpense(_ expense: Expense) {
 
         withAnimation(.smooth) {
 
             context.delete(expense)
 
             do {
-
                 try context.save()
-
             } catch {
-
                 print(error)
             }
         }

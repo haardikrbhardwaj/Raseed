@@ -15,27 +15,27 @@ struct RootView: View {
 
             HomeView()
                 .tabItem {
-                    Label("Home", systemImage: "house.fill")
+                    Label("home", systemImage: "house.fill")
                 }
 
             AnalyticsView()
                 .tabItem {
-                    Label("Analytics", systemImage: "chart.pie.fill")
+                    Label("analytics", systemImage: "chart.pie.fill")
                 }
 
             AddExpenseView()
                 .tabItem {
-                    Label("Add", systemImage: "plus.circle.fill")
+                    Label("add", systemImage: "plus.circle.fill")
                 }
 
             HistoryView()
                 .tabItem {
-                    Label("History", systemImage: "clock.fill")
+                    Label("history", systemImage: "clock.fill")
                 }
 
             SettingsView()
                 .tabItem {
-                    Label("Settings", systemImage: "gearshape.fill")
+                    Label("settings", systemImage: "gearshape.fill")
                 }
         }
         .preferredColorScheme(.dark)

@@ -33,9 +33,9 @@ struct HomeView: View {
                             monthlyBudget: monthlyBudget
                         )
 
-                        InsightCard(
-                            insight: vm.aiInsight
-                        )
+//                        InsightCard(
+//                            insight: vm.aiInsight
+//                        )
 
                         VStack(spacing: 16) {
 

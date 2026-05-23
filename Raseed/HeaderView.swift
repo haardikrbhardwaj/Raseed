@@ -16,7 +16,8 @@ struct HeaderView: View {
 
             VStack(alignment: .leading, spacing: 6) {
 
-                Text("Welcome Back")
+                // SwiftUI automatically treats this literal string as a LocalizedStringKey
+                Text("welcome_back")
                     .foregroundColor(.gray)
 
                 Text("Hardik")

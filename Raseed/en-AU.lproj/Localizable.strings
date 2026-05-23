@@ -1,0 +1,62 @@
+/* 
+  Localizable.strings
+  Raseed
+
+  Created by Hardik Bhardwaj on 23/05/26.
+  
+*/
+"settings" = "Settings";
+"language" = "Language";
+"analytics" = "Analytics";
+"history" = "History";
+"home" = "Home";
+
+"monthly_budget" = "Monthly Budget";
+"current_budget" = "Current Budget";
+"update_budget" = "Update Budget";
+"save_settings" = "Save Settings";
+"budget_updated" = "Budget Updated";
+
+"this_month" = "This Month";
+"budget" = "Budget";
+"expenses" = "Expenses";
+"total_spent" = "Total Spent";
+"breakdown" = "Breakdown";
+"category_spending" = "Category Spending";
+
+"add_expense" = "Add Expense";
+"save_expense" = "Save Expense";
+"expense_saved" = "Expense Saved";
+
+"amount" = "Amount";
+"merchant" = "Merchant";
+"category" = "Category";
+"custom_category" = "Custom Category";
+"enter_category_name" = "Enter category name";
+
+"food" = "Food";
+"travel" = "Travel";
+"shopping" = "Shopping";
+"bills" = "Bills";
+"gym" = "Gym";
+"fuel" = "Fuel";
+"medicine" = "Medicine";
+"books" = "Books";
+"entertainment" = "Entertainment";
+"other" = "Other";
+
+"notifications" = "Notifications";
+"ai_insights" = "AI Insights";
+"notion_sync" = "Notion Sync";
+
+"coming_soon" = "Coming Soon";
+
+"currency" = "Currency";
+"update_budget_placeholder" = "Enter new budget";
+
+"doing_great" = "You're doing great this month";
+"approaching_budget" = "You're approaching your budget";
+"budget_limit_reached" = "Budget limit almost reached";
+"track_spending" = "Track your spending insights";
+"add" = "Add";
+"welcome_back" = "Welcome Back";
