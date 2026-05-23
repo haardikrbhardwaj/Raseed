@@ -60,3 +60,32 @@
 "track_spending" = "ਆਪਣੇ ਖਰਚਿਆਂ ਦੇ ਵੇਰਵੇ 'ਤੇ ਨਜ਼ਰ ਰੱਖੋ";
 "add" = "ਜੋੜੋ";
 "welcome_back" = "ਜੀ ਆਇਆਂ ਨੂੰ";
+"no_expenses_yet" = "ਅਜੇ ਤੱਕ ਕੋਈ ਖਰਚਾ ਨਹੀਂ ਹੈ";
+"expenses_appear_here" = "ਤੁਹਾਡੇ ਖਰਚੇ ਇੱਥੇ ਦਿਖਾਈ ਦੇਣਗੇ";
+"welcome_title" = "Raseed ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ";
+"welcome_subtitle" = "ਇੱਕ ਸੁੰਦਰ ਅਤੇ ਸਮਾਰਟ ਵਿੱਤੀ ਅਨੁਭਵ ਦੇ ਨਾਲ ਆਸਾਨੀ ਨਾਲ ਆਪਣੇ ਖਰਚਿਆਂ ਨੂੰ ਟ੍ਰੈਕ ਕਰੋ।";
+"continue_button" = "ਜਾਰੀ ਰੱਖੋ";
+
+"choose_language" = "ਆਪਣੀ ਭਾਸ਼ਾ ਚੁਣੋ";
+"personalize_experience" = "ਆਪਣੇ Raseed ਅਨੁਭਵ ਨੂੰ ਨਿੱਜੀ ਬਣਾਓ।";
+
+"what_should_we_call_you" = "ਅਸੀਂ ਤੁਹਾਨੂੰ ਕੀ ਕਹਿ ਕੇ ਬੁਲਾਈਏ?";
+"why_use_raseed" = "Raseed ਦੀ ਵਰਤੋਂ ਕਿਉਂ ਕਰੀਏ?";
+"instant_logging" = "ਤੁਰੰਤ ਖਰਚਾ ਦਰਜ ਕਰੋ";
+"works_offline" = "ਪੂਰੀ ਤਰ੍ਹਾਂ ਔਫਲਾਈਨ ਕੰਮ ਕਰਦਾ ਹੈ";
+"smart_analytics" = "ਸਮਾਰਟ ਵਿਸ਼ਲੇਸ਼ਣ";
+"private_secure" = "ਨਿੱਜੀ ਅਤੇ ਸੁਰੱਖਿਅਤ";
+
+"connect_workspace" = "ਆਪਣਾ ਵਰਕਸਪੇਸ ਕਨੈਕਟ ਕਰੋ";
+"notion_sync_desc" = "ਬੈਕਅੱਪ, ਇਨਸਾਈਟਸ ਅਤੇ ਸੰਗਠਨ ਲਈ ਨੋਸ਼ਨ ਦੇ ਨਾਲ ਆਪਣੇ ਖਰਚਿਆਂ ਨੂੰ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਸਿੰਕ ਕਰੋ।";
+"cloud_backup" = "ਕਲਾਊਡ ਬੈਕਅੱਪ";
+"cross_device" = "ਕਰੌਸ-ਡਿਵਾਈਸ ਐਕਸੈਸ";
+"connect_notion_btn" = "ਨੋਸ਼ਨ ਨਾਲ ਕਨੈਕਟ ਕਰੋ";
+"continue_offline" = "ਔਫਲਾਈਨ ਜਾਰੀ ਰੱਖੋ";
+"logout" = "ਲੌਗ ਆਊਟ";
+"edit_profile" = "ਪ੍ਰੋਫਾਈਲ ਸੋਧੋ";
+"your_name" = "ਤੁਹਾਡਾ ਨਾਮ";
+"save_changes" = "ਤਬਦੀਲੀਆਂ ਸੁਰੱਖਿਅਤ ਕਰੋ";
+"edit_name" = "ਨਾਮ ਸੋਧੋ";
+"terms_of_service" = "ਸੇਵਾ ਦੀਆਂ ਸ਼ਰਤਾਂ";
+"privacy_policy" = "ਪਰਦੇਦਾਰੀ ਨੀਤੀ";

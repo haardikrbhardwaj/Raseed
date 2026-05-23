@@ -16,22 +16,22 @@ struct LanguageSettingsView: View {
 
     // Updated to match your Xcode Project localization settings exactly
     let languages = [
-        ("English (English)", "en"),
-        ("English (Australia) ", "en-AU"),
-        ("English (India)", "en-IN"),
-        ("English (United Kingdom) ", "en-GB"),
-        ("中文 (香港) (Chinese (Hong Kong))", "zh-HK"),
-        ("Français (French)", "fr"),
-        ("Español (Spanish)", "es"),
-        ("Ελληνικά (Greek)", "el"),
-        ("हिन्दी (Hindi)", "hi"),
-        ("ಕನ್ನಡ (Kannada)", "kn"),
-        ("తెలుగు (Telugu)", "te"),
-        ("தமிழ் (Tamil)", "ta"),
-        ("ਪੰਜਾਬੀ (Punjabi)", "pa"),
-        ("ଓଡ଼ିଆ (Odia)", "or"),
-        ("اردو (Urdu)", "ur")
-    
+                ("English (India)", "en-IN"),
+                ("हिन्दी (Hindi)", "hi"),
+                ("मराठी (Marathi)", "mr"),
+                ("ਪੰਜਾਬੀ (Punjabi)", "pa"),
+                ("తెలుగు (Telugu)", "te"),
+                ("தமிழ் (Tamil)", "ta"),
+                ("ಕನ್ನಡ (Kannada)", "kn"),
+                ("ଓଡ଼ିଆ (Odia)", "or"),
+                ("اردو (Urdu)", "ur"),
+                ("English (English)", "en"),
+                ("English (Australia)", "en-AU"),
+                ("English (United Kingdom)", "en-GB"),
+                ("中文 (香港) (Chinese (Hong Kong))", "zh-HK"),
+                ("Français (French)", "fr"),
+                ("Español (Spanish)", "es"),
+                ("Ελληνικά (Greek)", "el")
     ]
 
     var body: some View {

@@ -60,3 +60,32 @@
 "track_spending" = "Παρακολουθήστε την ανάλυση των εξόδων σας";
 "add" = "Προσθήκη";
 "welcome_back" = "Καλώς ήρθατε ξανά";
+"no_expenses_yet" = "Δεν υπάρχουν έξοδα ακόμα";
+"expenses_appear_here" = "Τα έξοδά σας θα εμφανιστούν εδώ";
+"welcome_title" = "Καλώς ορίσατε στο Raseed";
+"welcome_subtitle" = "Παρακολουθήστε τα έξοδά σας χωρίς κόπο με μια όμορφη και έξυπνη οικονομική εμπειρία.";
+"continue_button" = "Συνέχεια";
+
+"choose_language" = "Επιλέξτε τη Γλώσσα σας";
+"personalize_experience" = "Εξατομικεύστε την εμπειρία σας στο Raseed.";
+
+"what_should_we_call_you" = "Πώς να σας αποκαλούμε;";
+"why_use_raseed" = "Γιατί να επιλέξετε το Raseed;";
+"instant_logging" = "Άμεση Καταγραφή Εξόδων";
+"works_offline" = "Λειτουργεί Πλήρως Εκτός Σύνδεσης";
+"smart_analytics" = "Έξυπνα Στατιστικά";
+"private_secure" = "Ιδιωτικό & Ασφαλές";
+
+"connect_workspace" = "Συνδέστε τον Χώρο Εργασίας σας";
+"notion_sync_desc" = "Συγχρονίστε με ασφάλεια τα έξοδα με το Notion για δημιουργία αντιγράφων ασφαλείας, αναλύσεις και οργάνωση.";
+"cloud_backup" = "Αντίγραφο Ασφαλείας στο Cloud";
+"cross_device" = "Πρόσβαση από Πολλαπλές Συσκευές";
+"connect_notion_btn" = "Σύνδεση με το Notion";
+"continue_offline" = "Συνέχεια Εκτός Σύνδεσης";
+"logout" = "Αποσύνδεση";
+"edit_profile" = "Επεξεργασία προφίλ";
+"your_name" = "Το όνομά σου";
+"save_changes" = "Αποθήκευση αλλαγών";
+"edit_name" = "Επεξεργασία ονόματος";
+"terms_of_service" = "ସେବା ସର୍ତ୍ତାବଳୀ";
+"privacy_policy" = "ଗୋପନୀୟତା ନୀତି";

@@ -1,11 +1,3 @@
-//
-//  NotionOAuthService.swift
-//  Raseed
-//
-//  Created by Hardik Bhardwaj on 22/05/26.
-//
-
-
 import Foundation
 
 final class NotionOAuthService {
@@ -14,10 +6,21 @@ final class NotionOAuthService {
 
     func loginURL() -> URL {
 
-        let base = "https://api.notion.com/v1/oauth/authorize"
+        let redirect =
+        NotionConfig.redirectURI.addingPercentEncoding(
+            withAllowedCharacters: .urlQueryAllowed
+        ) ?? ""
 
-        let url = "\(base)?owner=user&client_id=\(NotionConfig.clientID)&response_type=code&redirect_uri=\(NotionConfig.redirectURI)"
+        let urlString =
+        """
+        \(NotionConfig.authURL)?
+        owner=user&
+        client_id=\(NotionConfig.clientID)&
+        response_type=code&
+        redirect_uri=\(redirect)
+        """
+        .replacingOccurrences(of: "\n", with: "")
 
-        return URL(string: url)!
+        return URL(string: urlString)!
     }
 }

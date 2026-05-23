@@ -240,6 +240,7 @@
 				ta,
 				te,
 				ur,
+				mr,
 			);
 			mainGroup = 19398FD32FC0B4F6009C0067;
 			minimizedProjectReferenceProxies = 1;

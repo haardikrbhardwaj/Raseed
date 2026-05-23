@@ -60,3 +60,34 @@
 "track_spending" = "Track your spending insights";
 "add" = "Add";
 "welcome_back" = "Welcome Back";
+
+"no_expenses_yet" = "No expenses yet";
+"expenses_appear_here" = "Your expenses will appear here";
+"welcome_title" = "Welcome to Raseed";
+"welcome_subtitle" = "Track expenses effortlessly with a beautiful and intelligent finance experience.";
+"continue_button" = "Continue";
+
+"choose_language" = "Choose Your Language";
+"personalize_experience" = "Personalize your Raseed experience.";
+
+"what_should_we_call_you" = "What should we call you?";
+"why_use_raseed" = "Why Use Raseed?";
+"instant_logging" = "Instant Expense Logging";
+"works_offline" = "Works Completely Offline";
+"smart_analytics" = "Smart Analytics";
+"private_secure" = "Private & Secure";
+
+"connect_workspace" = "Connect Your Workspace";
+"notion_sync_desc" = "Securely sync expenses with Notion for backup, insights, and organization.";
+"cloud_backup" = "Cloud Backup";
+"cross_device" = "Cross-device Access";
+"connect_notion_btn" = "Connect with Notion";
+"continue_offline" = "Continue Offline";
+"logout" = "Logout";
+"edit_profile" = "Edit Profile";
+"your_name" = "Your Name";
+"save_changes" = "Save Changes";
+"edit_name" = "Edit Name";
+
+"terms_of_service" = "Terms of Service";
+"privacy_policy" = "Privacy Policy";

@@ -53,3 +53,32 @@
 "track_spending" = "अपने खर्चों के विश्लेषण पर नज़र रखें";
 "add" = "जोड़ें";
 "welcome_back" = "आपका स्वागत है";
+"no_expenses_yet" = "अभी तक कोई खर्च नहीं है";
+"expenses_appear_here" = "आपके खर्चे यहाँ दिखाई देंगे";
+"welcome_title" = "Raseed में आपका स्वागत है";
+"welcome_subtitle" = "एक सुंदर और स्मार्ट वित्तीय अनुभव के साथ आसानी से अपने खर्चों को ट्रैक करें।";
+"continue_button" = "जारी रखें";
+
+"choose_language" = "अपनी भाषा चुनें";
+"personalize_experience" = "अपने Raseed अनुभव को व्यक्तिगत बनाएं।";
+
+"what_should_we_call_you" = "हम आपको क्या कहकर बुलाएं?";
+"why_use_raseed" = "Raseed का उपयोग क्यों करें?";
+"instant_logging" = "तुरंत खर्च दर्ज करें";
+"works_offline" = "पूरी तरह से ऑफ़लाइन काम करता है";
+"smart_analytics" = "स्मार्ट विश्लेषण";
+"private_secure" = "निजी और सुरक्षित";
+
+"connect_workspace" = "अपना वर्कस्पेस कनेक्ट करें";
+"notion_sync_desc" = "बैकअप, इनसाइट्स और ऑर्गनाइजेशन के लिए नोशन के साथ अपने खर्चों को सुरक्षित रूप से सिंक करें।";
+"cloud_backup" = "क्लाउड बैकअप";
+"cross_device" = "क्रॉस-डिवाइस एक्सेस";
+"connect_notion_btn" = "नोशन से कनेक्ट करें";
+"continue_offline" = "ऑफ़लाइन जारी रखें";
+"logout" = "लॉग आउट";
+"edit_profile" = "प्रोफ़ाइल संपादित करें";
+"your_name" = "आपका नाम";
+"save_changes" = "बदलाव सुरक्षित करें";
+"edit_name" = "नाम बदलें";
+"terms_of_service" = "सेवा की शर्तें";
+"privacy_policy" = "गोपनीयता नीति";

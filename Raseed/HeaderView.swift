@@ -5,10 +5,12 @@
 //  Created by Hardik Bhardwaj on 22/05/26.
 //
 
-
 import SwiftUI
 
 struct HeaderView: View {
+
+    @AppStorage("username")
+    private var username = "User"
 
     var body: some View {
 
@@ -16,20 +18,19 @@ struct HeaderView: View {
 
             VStack(alignment: .leading, spacing: 6) {
 
-                // SwiftUI automatically treats this literal string as a LocalizedStringKey
                 Text("welcome_back")
                     .foregroundColor(.gray)
 
-                Text("Hardik")
+                Text(username.isEmpty ? "User" : username)
                     .font(.largeTitle.bold())
                     .foregroundColor(.white)
             }
 
             Spacer()
 
-            Image(systemName: "bell.fill")
-                .foregroundColor(.white)
-                .font(.title3)
+//            Image(systemName: "bell.fill")
+//                .foregroundColor(.white)
+//                .font(.title3)
         }
     }
 }

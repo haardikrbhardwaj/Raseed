@@ -60,3 +60,34 @@
 "track_spending" = "Sigue la evolución de tus gastos";
 "add" = "Añadir";
 "welcome_back" = "Bienvenido de nuevo";
+"no_expenses_yet" = "Aún no hay gastos";
+"expenses_appear_here" = "Tus gastos aparecerán aquí";
+"welcome_title" = "Bienvenido a Raseed";
+"welcome_subtitle" = "Realiza un seguimiento de tus gastos sin esfuerzo con una experiencia financiera hermosa e inteligente.";
+"continue_button" = "Continuar";
+
+"choose_language" = "Elige tu idioma";
+"personalize_experience" = "Personaliza tu experiencia en Raseed.";
+
+"what_should_we_call_you" = "¿Cómo deberíamos llamarte?";
+"why_use_raseed" = "¿Por qué usar Raseed?";
+"instant_logging" = "Registro instantáneo de gastos";
+"works_offline" = "Funciona completamente sin conexión";
+"smart_analytics" = "Análisis inteligente";
+"private_secure" = "Privado y seguro";
+
+"connect_workspace" = "Conecta tu espacio de trabajo";
+"notion_sync_desc" = "Sincroniza tus gastos de forma segura con Notion para copias de seguridad, estadísticas y organización.";
+"cloud_backup" = "Copia de seguridad en la nube";
+"cross_device" = "Acceso multidispositivo";
+"connect_notion_btn" = "Conectar con Notion";
+"continue_offline" = "Continuar sin conexión";
+"logout" = "Cerrar sesión";
+"edit_profile" = "Editar perfil";
+"your_name" = "Tu nombre";
+"save_changes" = "Guardar cambios";
+"edit_name" = "Editar nombre";
+"terms_of_service" = "Términos de servicio";
+"privacy_policy" = "Política de privacidad";
+"terms_of_service" = "Términos de servicio";
+"privacy_policy" = "Política de privacidad";

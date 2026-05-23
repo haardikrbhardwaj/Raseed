@@ -1,36 +1,3 @@
-//import SwiftUI
-//import SwiftData
-//
-//@main
-//struct RaseedApp: App {
-//
-//    var body: some Scene {
-//
-//        WindowGroup {
-//
-//            RootView()
-//                .preferredColorScheme(.dark)
-//
-//                .onOpenURL { url in
-//
-//                    guard let components = URLComponents(
-//                        url: url,
-//                        resolvingAgainstBaseURL: false
-//                    ) else {
-//                        return
-//                    }
-//
-//                    let code = components.queryItems?
-//                        .first(where: { $0.name == "code" })?
-//                        .value
-//
-//                    print("OAuth Code:", code ?? "")
-//                }
-//        }
-//        .modelContainer(for: Expense.self)
-//    }
-//}
-
 //
 //  RaseedApp.swift
 //  Raseed
@@ -45,6 +12,9 @@ struct RaseedApp: App {
     @StateObject
     private var languageManager =
     LanguageManager.shared
+
+    @AppStorage("hasCompletedOnboarding")
+    private var hasCompletedOnboarding = false
 
     var sharedModelContainer: ModelContainer = {
 
@@ -77,14 +47,24 @@ struct RaseedApp: App {
 
         WindowGroup {
 
-            RootView()
-                .environment(
-                    \.locale,
-                     Locale(
-                        identifier:
-                        languageManager.selectedLanguage
-                     )
-                )
+            Group {
+
+                if hasCompletedOnboarding {
+
+                    RootView()
+
+                } else {
+
+                    OnboardingCoordinatorView()
+                }
+            }
+            .environment(
+                \.locale,
+                 Locale(
+                    identifier:
+                    languageManager.selectedLanguage
+                 )
+            )
         }
         .modelContainer(sharedModelContainer)
     }

@@ -399,7 +399,7 @@ struct AddExpenseView: View {
                                         )
                                         .stroke(
                                             vm.selectedCategory.name == category.name
-                                            ? Color.yellow
+                                            ? Color.white
                                             : Color.clear,
                                             lineWidth: 1.5
                                         )

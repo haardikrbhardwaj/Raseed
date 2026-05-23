@@ -32,11 +32,11 @@ struct HistoryView: View {
                             .font(.system(size: 60))
                             .foregroundColor(.gray)
 
-                        Text("no_expenses_yet")
+                        Text(LocalizedStringKey("no_expenses_yet"))
                             .font(.title2.bold())
                             .foregroundColor(.white)
 
-                        Text("expenses_appear_here")
+                        Text(LocalizedStringKey("expenses_appear_here"))
                             .foregroundColor(.gray)
                     }
 

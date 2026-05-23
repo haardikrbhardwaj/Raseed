@@ -60,3 +60,37 @@
 "track_spending" = "Suivez l'analyse de vos dépenses";
 "add" = "Ajouter";
 "welcome_back" = "Bon retour";
+"no_expenses_yet" = "Aucune dépense pour l'instant";
+"expenses_appear_here" = "Vos dépenses s'afficheront ici";
+"welcome_title" = "Bienvenue sur Raseed";
+"welcome_subtitle" = "Suivez vos dépenses sans effort grâce à une expérience financière belle et intelligente.";
+"continue_button" = "Continuer";
+
+"choose_language" = "Choisissez votre langue";
+"personalize_experience" = "Personnalisez votre expérience Raseed.";
+
+"what_should_we_call_you" = "Comment devrions-nous vous appeler ?";
+"why_use_raseed" = "Pourquoi utiliser Raseed ?";
+"instant_logging" = "Saisie instantanée des dépenses";
+"works_offline" = "Fonctionne complètement hors ligne";
+"smart_analytics" = "Analyses intelligentes";
+"private_secure" = "Privé et sécurisé";
+
+"connect_workspace" = "Connectez votre espace de travail";
+"notion_sync_desc" = "Synchronisez vos dépenses en toute sécurité avec Notion pour la sauvegarde, les analyses et l'organisation.";
+"cloud_backup" = "Sauvegarde sur le cloud";
+"cross_device" = "Accès multi-appareils";
+"connect_notion_btn" = "Se connecter avec Notion";
+"continue_offline" = "Continuer hors ligne";
+"logout" = "Se déconnecter";
+"edit_profile" = "Modifier le profil";
+"your_name" = "Votre nom";
+"save_changes" = "Enregistrer les modifications";
+"edit_name" = "Modifier le nom";
+"logout" = "Se déconnecter";
+"edit_profile" = "Modifier le profil";
+"your_name" = "Votre nom";
+"save_changes" = "Enregistrer les modifications";
+"edit_name" = "Modifier le nom";
+"terms_of_service" = "Conditions d'utilisation";
+"privacy_policy" = "Politique de confidentialité";
